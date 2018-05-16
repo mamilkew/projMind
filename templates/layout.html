@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/manual.css') }}" rel="stylesheet">
     <script src="https://d3js.org/d3.v3.min.js"></script>
     <!-- 1  TimelineJS -->
     <link title="timeline-styles" rel="stylesheet"
@@ -72,14 +73,15 @@
 {#        </div>#}
 {#    </div>#}
 {#</nav>#}
-<div class="container">
-    {% block container %}{% endblock %}
-</div>
-
+<main role="main" class="container">
+    <div class="container">
+        {% block container %}{% endblock %}
+    </div>
+</main>
 
 <footer class="fixed-bottom">
     <div class="container">
-        <img src="{{ url_for('static', filename='images/footerPage.png') }}" width="100%" />
+        <img src="{{ url_for('static', filename='images/footerPage.png') }}" width="100%"/>
     </div>
 </footer>
 
