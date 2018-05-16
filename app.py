@@ -1,7 +1,10 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from main.main_controllers import main
 
-app = Flask(__name__)
+app = Flask(__name__,
+            instance_relative_config=True,
+            template_folder='templates')
 
 POSTGRES = {
     'user': 'milkk',
@@ -17,9 +20,14 @@ db = SQLAlchemy(app)
 from models import *
 
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+# enable jinja2 extensions - i.e. continue in for loops
+app.jinja_env.add_extension('jinja2.ext.loopcontrols')
+app.register_blueprint(main, url_prefix='/')
+
+
+@app.route('/hello')
+def hello():
+    return 'Hello, World'
 
 
 if __name__ == '__main__':
