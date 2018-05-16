@@ -12,3 +12,8 @@ def index():
 @page.route('/country-map')
 def country_map():
     return render_template("country_map.html")
+
+
+@page.route('/set-taxonomy')
+def set_taxonomy():
+    return render_template("set_taxonomy.html")
