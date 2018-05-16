@@ -344,13 +344,27 @@
 
     </script>
 
-    <div class="starter-template">
-        <h1>SET Taxonomy</h1>
+
+
+    <div class="row">
+        <div class="col-md-3 left-faceted">
+            <h6>Faceted Search</h6>
+            <hr>
+            <button type="button" class="btn btn-info" onclick="myCivil()">Civil and Infrastructure Engineering</button>
+            <button type="button" class="btn btn-info" onclick="myIndus()">Industrial Systems Engineering</button>
+            <button type="button" class="btn btn-info" onclick="myICT()">Information and Communication Technologies
+            </button>
+            <button type="button" class="btn btn-info" onclick="myMulti()">Interdisciplinary Programs</button>
+
+        </div>
+        <div class="col-xs-12 col-md-9">
+                <h3>Taxonomy</h3>
+                <p>School of Engineering and Technology</p>
+
+        </div>
     </div>
+
     <!--<button type="button" class="btn btn-default" onclick="myFlare()">Flare</button>-->
-    <button type="button" class="btn btn-info" onclick="myCivil()">Civil and Infrastructure Engineering</button>
-    <button type="button" class="btn btn-info" onclick="myIndus()">Industrial Systems Engineering</button>
-    <button type="button" class="btn btn-info" onclick="myICT()">Information and Communication Technologies</button>
-    <button type="button" class="btn btn-info" onclick="myMulti()">Interdisciplinary Programs</button>
+
 
 {% endblock %}
