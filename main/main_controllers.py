@@ -4,11 +4,6 @@ from models import User
 main = Blueprint('main', __name__, template_folder='templates')
 
 
-@main.route('/')
-def index():
-    return render_template("index.html")
-
-
 @main.route('/users/')
 def display_user():
     # users = [

@@ -18,17 +18,14 @@ db = SQLAlchemy(app)
 
 
 from main.main_controllers import main
+from page.page_controllers import page
 from models import *
 
 
 # enable jinja2 extensions - i.e. continue in for loops
 app.jinja_env.add_extension('jinja2.ext.loopcontrols')
-app.register_blueprint(main, url_prefix='/')
-
-
-@app.route('/hello')
-def hello():
-    return 'Hello, World'
+app.register_blueprint(main, url_prefix='/main')
+app.register_blueprint(page, url_prefix='/')
 
 
 if __name__ == '__main__':
