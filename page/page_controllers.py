@@ -9,6 +9,6 @@ def index():
     return render_template("index.html")
 
 
-@page.route('/hello')
-def hello():
-    return 'Hello, World'
+@page.route('/country-map')
+def country_map():
+    return render_template("country_map.html")
