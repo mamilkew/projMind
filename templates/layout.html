@@ -1,29 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>Flask Bookshelf</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="{{ url_for('main.index') }}">ProjMind</a>
-        </div>
-        <div>
-          <ul class="nav navbar-nav">
-            <li><a class="navbar-brand" href="{{ url_for('main.index') }}">Home</a></li>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <!-- 1  TimelineJS -->
+    <link title="timeline-styles" rel="stylesheet"
+          href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <!-- 2 -->
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="{{ url_for('main.index') }}">
+        <img src="{{ url_for('static', filename='images/logo_ait_08_ver3.jpg') }}" width="auto" height="30"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Country Map<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <!--<a class="nav-link" href="/ideas">Ideas</a>-->
+                <a class="nav-link" href="#">Taxonomy</a>
+            </li>
+            <li class="nav-item">
+                <!--<a class="nav-link" href="/ideas">Ideas</a>-->
+                <a class="nav-link" href="#">Donor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disable</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">AIT Faculty</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">SET</a>
+                    <a class="dropdown-item" href="#">SERD</a>
+                    <a class="dropdown-item" href="#">SOM</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+
+{#<nav class="navbar navbar-inverse">#}
+{#    <div class="container-fluid">#}
+{#        <div class="navbar-header">#}
+{#            <a class="navbar-brand" href="{{ url_for('main.index') }}">ProjMind</a>#}
+{#        </div>#}
+{#        <div>#}
+{#            <ul class="nav navbar-nav">#}
+{#                <li><a class="navbar-brand" href="{{ url_for('main.index') }}">Home</a></li>#}
 {#            <li><a class="navbar-brand" href="{{ url_for('admin.index') }}">Admin</a></li>#}
 {#            <li><a class="navbar-brand" href="{{ url_for('main.display_books') }}">Books</a></li>#}
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
+{#            </ul>#}
+{#        </div>#}
+{#    </div>#}
+{#</nav>#}
+<div class="container">
     {% block container %}{% endblock %}
+</div>
+
+
+<footer class="footer">
+    <div class="container">
+        <img src="{{ url_for('static', filename='images/footerPage.png') }}" width="100%" />
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
-  </body>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+</body>
 </html>
