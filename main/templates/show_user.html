@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block container %}
+  <div class="top-pad">
+    <h1>
+    {{ ('Show Users') }}
+    </h1>
+    <table class="table table-striped">
+      <tbody>
+
+{% for user in users %}
+    <tr>
+      <td>{{user.id}}</td>
+      <td>{{user.username}}</td>
+      <td>{{user.email}}</td>
+    </tr>
+{% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endblock %}
