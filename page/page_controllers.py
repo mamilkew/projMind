@@ -17,3 +17,8 @@ def country_map():
 @page.route('/set-taxonomy')
 def set_taxonomy():
     return render_template("set_taxonomy.html")
+
+
+@page.route('/pj-timeline')
+def pj_timeline():
+    return render_template("pj_timeline.html")
