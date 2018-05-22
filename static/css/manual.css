@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 body {
     padding-top: 100px;
 }
@@ -8,7 +10,16 @@ body {
 }
 
 .left-faceted {
-    background-color: #c8cbcf;
+    background-color: #eeeeee;
 
 }
 
+.card-header::after{
+    font-family: "FontAwesome";
+    content: "\f068";
+    float: right;
+}
+.card-header.collapsed::after{
+    font-family: "FontAwesome";
+    content: "\f067";
+}
