@@ -1,0 +1,2787 @@
+{
+  "head" : {
+    "vars" : [
+      "project",
+      "donor",
+      "type",
+      "country",
+      "cmmt"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R024"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AgriculturealReaearchDevelopmentAgency"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Agricultureal Reaearch Development Agency (ARDA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R024"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AgriculturealReaearchDevelopmentAgency"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Agricultureal Reaearch Development Agency (ARDA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asia-Pacific Network for Global Change Research (APN)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asia-Pacific Network for Global Change Research (APN)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asia-Pacific Network for Global Change Research (APN), Japan"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asia-Pacific Network for Global Change Research (APN), Japan"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asian Disaster Preparedness Center (ADPC)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asian Disaster Preparedness Center (ADPC)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Prevention Consortium, Asian Disaster Preparedness Center (ADPC)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Prevention Consortium, Asian Disaster Preparedness Center (ADPC)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianOfficeOfAerospaceResearchAndDevelopment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asian Office of Aerospace Research and Development (AOARD)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianOfficeOfAerospaceResearchAndDevelopment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Asian Office of Aerospace Research and Development (AOARD)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-A016"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A005"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-A016"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A005"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R044"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#DonaldsonCompanyThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Donaldson Company, Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R044"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#DonaldsonCompanyThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Donaldson Company, Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-A002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies - Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies - Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-A002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies - Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies - Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-A002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies -Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies -Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-A002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies -Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies -Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FabrinetCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Fabrinet Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FabrinetCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Fabrinet Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FederationInternationalVehiculesAnciens"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Non_Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Belgium"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Federation International Vehicules Anciens (FIVA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FederationInternationalVehiculesAnciens"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Belgium"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Federation International Vehicules Anciens (FIVA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FoodAndAgricultureOrganization"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#United_Nations"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Food and Agriculture Organization (FAO)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FoodAndAgricultureOrganization"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Food and Agriculture Organization (FAO)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#GeologicalSurveyOfDenmarkAndGreenland"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Denmark"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Geological Survey of Denmark and Greenland (GEUS)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#GeologicalSurveyOfDenmarkAndGreenland"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Denmark"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Geological Survey of Denmark and Greenland (GEUS)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City, Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City, Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City, Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City, Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City_Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City_Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City_Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HCM City_Vietnam"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2013-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HYUNDAIEngineering"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SouthKorea"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HYUNDAI Engineering &7 Construction Korea"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2013-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HYUNDAIEngineering"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SouthKorea"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "HYUNDAI Engineering &7 Construction Korea"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R006"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HumansServicesResearchInstitute"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#America"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Humans Services Research Institute (HSRI)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R030"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HumansServicesResearchInstitute"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#America"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Humans Services Research Institute (HSRI)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R006"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HumansServicesResearchInstitute"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#America"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Humans Services Research Institute (HSRI)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R030"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HumansServicesResearchInstitute"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#America"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Humans Services Research Institute (HSRI)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R026"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#KokusaiKogyoCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Kokusai Kogyo Co.,Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R026"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#KokusaiKogyoCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Japan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Kokusai Kogyo Co.,Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#England"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Mander Portman Woodward (MPW)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#England"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Mander Portman Woodward (MPW)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#England"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Mander Portman Woodward (MPW) - Indonesia"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-A004"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#England"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Mander Portman Woodward (MPW) - Indonesia"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#MinistryOfWorksAndHumanSettlementsBhutan"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Bhutan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Ministry of Works and Human Settlements, Bhutan"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R002"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#MinistryOfWorksAndHumanSettlementsBhutan"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Bhutan"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Ministry of Works and Human Settlements, Bhutan"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalElectronicsAndComputerTechnology"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "National Electronics and Computer Technology (NECTEC)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalElectronicsAndComputerTechnology"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "National Electronics and Computer Technology (NECTEC)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R016"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalScienceAndTechnologyDevelopmentAgency"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "National Science and Technology Development Agency (NSTDA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2013-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalScienceAndTechnologyDevelopmentAgency"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "National Science and Technology Development Agency (NSTDA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R016"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalScienceAndTechnologyDevelopmentAgency"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "National Science and Technology Development Agency (NSTDA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2013-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalScienceAndTechnologyDevelopmentAgency"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "National Science and Technology Development Agency (NSTDA)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PTTPublicCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "PTT Company of Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PTTPublicCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "PTT Company of Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PTTPublicCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "PTT Public Company Limited, Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PTTPublicCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "PTT Public Company Limited, Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R005"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PruksaRealEstateCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Pruksa Real Estate Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R005"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PruksaRealEstateCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Pruksa Real Estate Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R005"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PruksaRealEstateCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Pruksa Real Estate Co., Ltd.-Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R005"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PruksaRealEstateCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Pruksa Real Estate Co., Ltd.-Thailand"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RamsarConventionSecretariat-Switzerland"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Non_Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Switzerland"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Ramsar Convention Secretariat, Switzerland"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RamsarConventionSecretariat-Switzerland"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Switzerland"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Ramsar Convention Secretariat, Switzerland"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R021"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R023"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R040"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R041"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R048"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R021"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R023"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R040"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R041"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R048"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Toyo-Thai Corporation Public Company Limited"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Toyo-Thai Corporation Public Company Limited"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Toyo-Thai Corporation Public Company Limited (TTCL)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Toyo-Thai Corporation Public Company Limited (TTCL)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R040"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SVIPublicCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "SVI Public Co. Ltd"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2009-R040"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SVIPublicCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "SVI Public Co. Ltd"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-A027"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-A027"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-A027"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH) Co. Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH) Co. Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-A027"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH) Co. Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-A003"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH) Co. Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SolimacAutomationCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Solimac Automation Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SolimacAutomationCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Solimac Automation Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SolimacAutomationCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Solimac Co. Ltd"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R001"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SolimacAutomationCompanyLimited"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Solimac Co. Ltd"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R038"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-R020"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R018"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R038"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-R020"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R018"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R038"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-R020"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R018"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Government_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2010-R038"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2011-R020"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2015-R018"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R012"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TEAMConsulting"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "TEAM Consulting & Eng'g Management Co. Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2012-R012"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TEAMConsulting"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "TEAM Consulting & Eng'g Management Co. Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2013-R019"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#YamahaMotor"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Yamaha Motor, Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#YamahaMotor"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Business_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Yamaha Motor, Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2013-R019"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#YamahaMotor"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Yamaha Motor, Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2014-R007"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#YamahaMotor"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "Yamaha Motor, Co., Ltd."
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#UniversityOfNewcastle-Australia"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Academic_Organization"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Australia"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "University of Newcastle, Australia"
+        }
+      },
+      {
+        "project" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SET-2016-R017"
+        },
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#UniversityOfNewcastle-Australia"
+        },
+        "type" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2002/07/owl#NamedIndividual"
+        },
+        "country" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Australia"
+        },
+        "cmmt" : {
+          "type" : "literal",
+          "value" : "University of Newcastle, Australia"
+        }
+      }
+    ]
+  }
+}

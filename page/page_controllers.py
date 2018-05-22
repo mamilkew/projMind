@@ -29,7 +29,32 @@ def pj_timeline():
 def pj_results():
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
     json_url = os.path.join(SITE_ROOT, "static/data", "export-2.json")
-    jsdata = json.load(open(json_url))
-    head = jsdata.get('head')
-    print(head)
-    return render_template("pj_results.html", data=head)
+    data = json.load(open(json_url))
+    results = data['results']['bindings']
+    new_results = {}
+    nodes = []
+    edges = []
+    for result in results:
+        nodes.append({'name': result['project']['value']})
+        project = len(nodes) - 1
+        nodes.append({'name': result['donor']['value']})
+        donor = len(nodes) - 1
+        nodes.append({'name': result['type']['value']})
+        type = len(nodes) - 1
+        nodes.append({'name': result['country']['value']})
+        country = len(nodes) - 1
+        nodes.append({'name': result['cmmt']['value']})
+        cmmt = len(nodes) - 1
+        edges.append({'source': project, 'target': donor})
+        edges.append({'source': donor, 'target': type})
+        edges.append({'source': donor, 'target': country})
+        edges.append({'source': donor, 'target': cmmt})
+
+
+    # head = jsdata.get('head')
+    new_results['nodes'] = nodes
+    new_results['edges'] = edges
+    print(new_results)
+    # js_results = json.dumps(new_results)
+    # print(js_results)
+    return render_template("pj_results.html", data=new_results)
