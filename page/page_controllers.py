@@ -22,3 +22,7 @@ def set_taxonomy():
 @page.route('/pj-timeline')
 def pj_timeline():
     return render_template("pj_timeline.html")
+
+@page.route('/results')
+def pj_results():
+    return render_template("pj_results.html")
