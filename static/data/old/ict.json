@@ -1,0 +1,410 @@
+{
+  "name": "Information and Communication Technologies",
+  "children": [
+    {
+      "name": "Computer Science and Information Management (CSIM)",
+      "children": [
+        {
+          "name": "Information Technologies",
+          "children": [
+            {
+              "name": "Database"
+            },
+            {
+              "name": "Data Structures"
+            },
+            {
+              "name": "Machine Learning"
+            }
+          ]
+        },
+        {
+          "name": "Communitcation Technologies",
+          "children": [
+            {
+              "name": "Internet"
+            },
+            {
+              "name": "Computer Network"
+            }
+          ]
+        },
+        {
+          "name": "Network Security",
+          "children": [
+            {
+              "name": "Cyber security"
+            },
+            {
+              "name": "Computer Security"
+            },
+            {
+              "name": "Trust"
+            },
+            {
+              "name": "Reputation"
+            }
+          ]
+        },
+        {
+          "name": "Semantic Technologies",
+          "children": [
+            {
+              "name": "Semantic web"
+            },
+            {
+              "name": "Linked open data"
+            },
+            {
+              "name": "Ontology"
+            }
+          ]
+        },
+        {
+          "name": "Video Analytics",
+          "children": [
+            {
+              "name": "CCTV security improvements"
+            },
+            {
+              "name": "CCTV Video analytics"
+            }
+          ]
+        },
+        {
+          "name": "Image Processing",
+          "children": [
+            {
+              "name": "Image processing for answer sheet checking"
+            },
+            {
+              "name": "Image processing application for plant protection"
+            },
+            {
+              "name": "Machine Vision"
+            },
+            {
+              "name": "Traffic Flow Systems"
+            },
+            {
+              "name": "Microrray analysis"
+            }
+          ]
+        },
+        {
+          "name": "Automatic Identification Systems",
+          "children": [
+            {
+              "name": "Traffic Monitoring systems"
+            },
+            {
+              "name": "Automatic Systems"
+            },
+            {
+              "name": "Vehicle Counting System"
+            },
+            {
+              "name": "Automatic Detection"
+            },
+            {
+              "name": "Speed Estimation"
+            },
+            {
+              "name": "Automatic Counting System"
+            },
+            {
+              "name": "Automated Vehicle Identification"
+            }
+          ]
+        },
+        {
+          "name": "Automation Technologies",
+          "children": [
+            {
+              "name": "Computing Architecture"
+            },
+            {
+              "name": "Factory Automation pocessess"
+            },
+            {
+              "name": "Plant growth measurment"
+            },
+            {
+              "name": "portable camera systems"
+            },
+            {
+              "name": "Automated Transplant Machines"
+            },
+            {
+              "name": "Traffic Flow Systems"
+            }
+          ]
+        },
+        {
+          "name": "Robotics",
+          "children": [
+            {
+              "name": "Target tracking robots"
+            },
+            {
+              "name": "Industrial robots"
+            },
+            {
+              "name": "Vision-based robots"
+            },
+            {
+              "name": "Mobile robot platform"
+            },
+            {
+              "name": "Field based navigation systems"
+            }
+          ]
+        },
+        {
+          "name": "Others",
+          "children": [
+            {
+              "name": "Professional Masters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remote Sensing and Geographic Information Systems (RS-GIS)",
+      "children": [
+        {
+          "name": "Others",
+          "children": [
+            {
+              "name": "Microwave Remote Sensing"
+            },
+            {
+              "name": "Capacity Building Programmes"
+            },
+            {
+              "name": "Lonospheric Scintillation"
+            },
+            {
+              "name": "Winter Education Camps"
+            },
+            {
+              "name": "Trainings"
+            }
+          ]
+        },
+        {
+          "name": "Geospatial Information Management",
+          "children": [
+            {
+              "name": "Geospatial Data Processing"
+            },
+            {
+              "name": "Ontology-Based Systems"
+            },
+            {
+              "name": "Data Retrieval Support"
+            },
+            {
+              "name": "Earth Observation Parameters"
+            },
+            {
+              "name": "Mobile Applications"
+            },
+            {
+              "name": "Segmentation of Data"
+            },
+            {
+              "name": "Overseas Preparation Systems"
+            },
+            {
+              "name": "Urban and Infrastructure Data"
+            },
+            {
+              "name": "Big Data Analysis"
+            },
+            {
+              "name": "GPU Computing"
+            },
+            {
+              "name": "Geoinformatics Applications"
+            }
+          ]
+        },
+        {
+          "name": "GIS Application-Agriculture",
+          "children": [
+            {
+              "name": "Web GIS Service System"
+            },
+            {
+              "name": "Agriculture Information Systems"
+            },
+            {
+              "name": "GIS-based systems for crop management"
+            }
+          ]
+        },
+        {
+          "name": "GIS Application-Land Use Analysis",
+          "children": [
+            {
+              "name": "Land cover Data Products"
+            },
+            {
+              "name": "Landsat and Multi-Temporal Imagery"
+            },
+            {
+              "name": "Landuse Landcover Mapping"
+            },
+            {
+              "name": "Satelite Image Processing"
+            }
+          ]
+        },
+        {
+          "name": "GIS Application-Planning and Development",
+          "children": [
+            {
+              "name": "Geoinformatics"
+            },
+            {
+              "name": "Sustainable Development"
+            },
+            {
+              "name": "Fitter Nozzles Testing"
+            },
+            {
+              "name": "Water Treatment Plants"
+            },
+            {
+              "name": "City Planning Labs"
+            }
+          ]
+        },
+        {
+          "name": "GIS Application-Forest Management",
+          "children": [
+            {
+              "name": "Forest Resources Management"
+            },
+            {
+              "name": "GIS Application"
+            },
+            {
+              "name": "Forest carbon measurement"
+            }
+          ]
+        },
+        {
+          "name": "GIS Application-Disaster Risk Management",
+          "children": [
+            {
+              "name": "Use of Satellite Data for Disaster Risk Management"
+            },
+            {
+              "name": "Tsunami Risk assessment"
+            },
+            {
+              "name": "Flood Management"
+            },
+            {
+              "name": "Coastal Hazards Management"
+            },
+            {
+              "name": "Situational Awareness"
+            },
+            {
+              "name": "Tsunami Simulation System"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telecommunication (TC)",
+      "children": [
+        {
+          "name": "Information Communication Technology (ICT)",
+          "children": [
+            {
+              "name": "Telecommunication Product and Service Design"
+            }
+          ]
+        },
+        {
+          "name": "Signal Processing",
+          "children": [
+            {
+              "name": "Signals and Systems"
+            },
+            {
+              "name": "Digital Transmission Technologies"
+            },
+            {
+              "name": "Digital Communications"
+            },
+            {
+              "name": "Signal and Digital Transmission Technologies"
+            },
+            {
+              "name": "Cryptography"
+            },
+            {
+              "name": "Multi-user Detection"
+            }
+          ]
+        },
+        {
+          "name": "Network and Data Communications",
+          "children": [
+            {
+              "name": "Telecommunication Networks"
+            },
+            {
+              "name": "Data Communications"
+            },
+            {
+              "name": "Optical Network"
+            },
+            {
+              "name": "Network Simulation and Modelling"
+            },
+            {
+              "name": "Fiber Optic Components and Systems"
+            },
+            {
+              "name": "Multimedia Communications and Systems"
+            },
+            {
+              "name": "Network Planning"
+            }
+          ]
+        },
+        {
+          "name": "Wireless Technologies",
+          "children": [
+            {
+              "name": "Telecommunication Networks"
+            },
+            {
+              "name": "Teletraffic Engineering"
+            },
+            {
+              "name": "Satellite Communications"
+            },
+            {
+              "name": "Cellular Mobile Systems and Planning"
+            },
+            {
+              "name": "Advanced Wireless Communication Systems"
+            },
+            {
+              "name": "Cellular Network Planning"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

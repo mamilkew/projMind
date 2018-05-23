@@ -1,0 +1,527 @@
+{
+  "name": "Civil and Infrastructure Engineering",
+  "children": [
+    {
+      "name": "Construction Engineering and Infrastructure Management (CEIM)",
+      "children": [
+        {
+          "name": "Sustainable Construction",
+          "children": [
+            {
+              "name": "Built Environment Management"
+            },
+            {
+              "name": "Climate Change Response"
+            }
+          ]
+        },
+        {
+          "name": "Project Management",
+          "children": [
+            {
+              "name": "Project Development"
+            }
+          ]
+        },
+        {
+          "name": "Project Financing",
+          "children": [
+            {
+              "name": "Budgeting Techniques"
+            },
+            {
+              "name": "Capital Investment"
+            },
+            {
+              "name": "Project Financing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geotechnical and Earth Resources Engineering (GTE)",
+      "children": [
+        {
+          "name": "Earth Retaining Structures",
+          "children": [
+            {
+              "name": "River Bank Retaining Structures"
+            },
+            {
+              "name": "Bank Slope Failure"
+            },
+            {
+              "name": "Geotechnical Investigation"
+            }
+          ]
+        },
+        {
+          "name": "Geotechnical investigation",
+          "children": [
+            {
+              "name": "Underground Substations Evaluation"
+            },
+            {
+              "name": "Geotechnical Investigation"
+            },
+            {
+              "name": "Petroleum-Contaminated Soil investigaton"
+            },
+            {
+              "name": "Ground Evaluations"
+            }
+          ]
+        },
+        {
+          "name": "Geotech Engineering",
+          "children": [
+            {
+              "name": "Geotech engineering professional masters"
+            }
+          ]
+        },
+        {
+          "name": "Natural Hazard Mitigation",
+          "children": [
+            {
+              "name": "Seismic Safety"
+            },
+            {
+              "name": "Floods Invetsigation"
+            }
+          ]
+        },
+        {
+          "name": "Soil Engineering",
+          "children": [
+            {
+              "name": "Soil Erosion Control"
+            },
+            {
+              "name": "Soil Reinforcement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Geosystem Exploration and Petroleum GeoEngineering (GEPG)",
+      "children": [
+        {
+          "name": "Geosystem Exploration",
+          "children": [
+            {
+              "name": "Capacity Building"
+            },
+            {
+              "name": "Sustainable Geosystem Exploration"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Structural Engineering (SE)",
+      "children": [
+        {
+          "name": "Structural Evaluation",
+          "children": [
+            {
+              "name": "Structural Evaluation"
+            },
+            {
+              "name": "Residences Buildings"
+            }
+          ]
+        },
+        {
+          "name": "Earthquake Engineering",
+          "children": [
+            {
+              "name": "Earthquake Disaster Mitigation"
+            },
+            {
+              "name": "Earthquake Engineering"
+            },
+            {
+              "name": "Seismic Design"
+            },
+            {
+              "name": "Retrofit of Buildings"
+            },
+            {
+              "name": "Seismic Risk Assessment"
+            },
+            {
+              "name": "Seismic Risk Management"
+            }
+          ]
+        },
+        {
+          "name": "Structural Engineering",
+          "children": [
+            {
+              "name": "Site Inspection"
+            },
+            {
+              "name": "Oceanography Conditions"
+            },
+            {
+              "name": "Nuclear Power Plant Construction"
+            }
+          ]
+        },
+        {
+          "name": "Material Testing",
+          "children": [
+            {
+              "name": "Compacted Concrete"
+            },
+            {
+              "name": "Material Tests"
+            },
+            {
+              "name": "Structural Testing"
+            },
+            {
+              "name": "Concrete Sleeper Manufacturing"
+            },
+            {
+              "name": "Structural Evaluation"
+            },
+            {
+              "name": "Incomplete House Construction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Transport Engineering (TE)",
+      "children": [
+        {
+          "name": "Public Transport Planning and Management",
+          "children": [
+            {
+              "name": "Gasoline Tax Collection"
+            },
+            {
+              "name": "Road Users"
+            },
+            {
+              "name": "Road to Rail Shifting"
+            },
+            {
+              "name": "Public Transportation Planning"
+            }
+          ]
+        },
+        {
+          "name": "Accident Risk Management",
+          "children": [
+            {
+              "name": "Accident Control"
+            },
+            {
+              "name": "Accident Database Development"
+            },
+            {
+              "name": "Capacity Building"
+            },
+            {
+              "name": "Teamwork"
+            },
+            {
+              "name": "Road Accident Investigation"
+            },
+            {
+              "name": "Motorcycle Accident Investigation"
+            },
+            {
+              "name": "Motorcycle-Accident Reduction"
+            },
+            {
+              "name": "Accident Cost"
+            },
+            {
+              "name": "Car Accident Analysis"
+            }
+          ]
+        },
+        {
+          "name": "Road Safety",
+          "children": [
+            {
+              "name": "School Zones Safety"
+            },
+            {
+              "name": "Roadside Safety"
+            },
+            {
+              "name": "Road Safety Watch"
+            },
+            {
+              "name": "Road Safety"
+            },
+            {
+              "name": "Auditing"
+            },
+            {
+              "name": "Road Safety Improvement"
+            }
+          ]
+        },
+        {
+          "name": "Traffic Safety",
+          "children": [
+            {
+              "name": "Traffic Engineering"
+            },
+            {
+              "name": "Accident Control"
+            },
+            {
+              "name": "Drivers’ Attitudes"
+            },
+            {
+              "name": "Speed Management"
+            }
+          ]
+        },
+        {
+          "name": "Transportation Engineering",
+          "children": [
+            {
+              "name": "Dual Degree Masters"
+            },
+            {
+              "name": "Transportation Engineering"
+            },
+            {
+              "name": "Agent-based simulation"
+            },
+            {
+              "name": "tour area evaluation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Water Engineering and Management (WEM)",
+      "children": [
+        {
+          "name": "Agricultural Water Management",
+          "children": [
+            {
+              "name": "Agricultural Water Productivity"
+            },
+            {
+              "name": "Ecosystem Services"
+            },
+            {
+              "name": "Life Cycle Assessment"
+            },
+            {
+              "name": "Water Foot Print"
+            },
+            {
+              "name": "Virtual Water Flow"
+            },
+            {
+              "name": "Water Interventions"
+            },
+            {
+              "name": "Smallholder Farming"
+            },
+            {
+              "name": "Rural Livelihoods"
+            },
+            {
+              "name": "Climate Change Adaptation"
+            },
+            {
+              "name": "Food Security"
+            }
+          ]
+        },
+        {
+          "name": "Climate Change and Water Resources",
+          "children": [
+            {
+              "name": "Climate Change Impacts"
+            },
+            {
+              "name": "Climate Change Adaptation"
+            },
+            {
+              "name": "River Basin Development"
+            },
+            {
+              "name": "Global Change Adaptation"
+            },
+            {
+              "name": "Water Scarcity"
+            },
+            {
+              "name": "Integrated Water and Landuse Management"
+            },
+            {
+              "name": "Capacity Development"
+            },
+            {
+              "name": "Coastal Management"
+            },
+            {
+              "name": "Wetland Conservation"
+            },
+            {
+              "name": "Wetland Ecosystem Restoration"
+            },
+            {
+              "name": "Groundwater Vulnerability"
+            },
+            {
+              "name": "Crop Production Managemenet"
+            },
+            {
+              "name": "Environment and Economic Implications"
+            },
+            {
+              "name": "Water Security"
+            },
+            {
+              "name": "Climate Change Risks"
+            },
+            {
+              "name": "Water Supply and Demand Management"
+            },
+            {
+              "name": "Climate Change Scenarios"
+            }
+          ]
+        },
+        {
+          "name": "Watershed Management",
+          "children": [
+            {
+              "name": "Integrated Watershed Management"
+            },
+            {
+              "name": "Watershed Management"
+            },
+            {
+              "name": "Reforestation"
+            }
+          ]
+        },
+        {
+          "name": "Integrated Water Resource Management",
+          "children": [
+            {
+              "name": "Capacity Development"
+            },
+            {
+              "name": "Integrated Water Resource Management"
+            }
+          ]
+        },
+        {
+          "name": "Irrigation and Drainage System Management",
+          "children": [
+            {
+              "name": "Irrigation Management"
+            },
+            {
+              "name": "Modem Irrigation Practices"
+            },
+            {
+              "name": "Irrigation and Drainage Systems"
+            },
+            {
+              "name": "Irrigation Systems Management"
+            },
+            {
+              "name": "Hydraulic Structures Management"
+            },
+            {
+              "name": "Irrigation Planning"
+            }
+          ]
+        },
+        {
+          "name": "Hydraulic Modelling",
+          "children": [
+            {
+              "name": "Hydraulic Model Testing"
+            },
+            {
+              "name": "Efficiency Improvement"
+            },
+            {
+              "name": "Physical Hydraulic Models"
+            }
+          ]
+        },
+        {
+          "name": "Storm Water Management",
+          "children": [
+            {
+              "name": "Urban Wasteater Management"
+            },
+            {
+              "name": "Storm Water Management"
+            },
+            {
+              "name": "Capability Improvement"
+            },
+            {
+              "name": "Reservoir Operation Optimization"
+            },
+            {
+              "name": "Rainfall Forecasting Platform"
+            },
+            {
+              "name": "Storm Water Management Systems"
+            }
+          ]
+        },
+        {
+          "name": "Flood Control and Management",
+          "children": [
+            {
+              "name": "Flood Forecasting System"
+            },
+            {
+              "name": "Urban Flood Modelling"
+            },
+            {
+              "name": "Disaster Risk Management"
+            },
+            {
+              "name": "Flood Risk Assessment"
+            },
+            {
+              "name": "Disaster Prepration"
+            }
+          ]
+        },
+        {
+          "name": "Groundwater Management",
+          "children": [
+            {
+              "name": "Groundwater Management Capacity"
+            },
+            {
+              "name": "Groundwater Sustainability Index"
+            },
+            {
+              "name": "Global Change Adaptation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Industrial Systems Engineering",
+  "children": [
+    {
+      "name": "Mechatronics (MEC)",
+      "children": [
+        {
+          "name": "Control Systems",
+          "children": [
+            {
+              "name": "Accident Prevention"
+            },
+            {
+              "name": "Machine control"
+            },
+            {
+              "name": "Fatigue alarming"
+            },
+            {
+              "name": "Robot control"
+            },
+            {
+              "name": "Balancing Control Systems"
+            }
+          ]
+        },
+        {
+          "name": "Automation Technology",
+          "children": [
+            {
+              "name": "Automated agricultural machinery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Microelectronics and Embedded Systems (MES)",
+      "children": [
+        {
+          "name": "Others",
+          "children": [
+            {
+              "name": "Electronic Design Automation"
+            },
+            {
+              "name": "Masters in Hard Disk Drives Engineering"
+            },
+            {
+              "name": "Capacitance Instrument"
+            },
+            {
+              "name": "Capacitor Unit"
+            }
+          ]
+        },
+        {
+          "name": "Automation Technology",
+          "children": [
+            {
+              "name": "Automated Pneumatic Molding System"
+            }
+          ]
+        },
+        {
+          "name": "Robotics",
+          "children": [
+            {
+              "name": "Exo-Skeleton Robots"
+            },
+            {
+              "name": "Walk Rehabilitation"
+            },
+            {
+              "name": "Autonomous Mobile Robotic Machines Handicapped and Elderly People"
+            }
+          ]
+        },
+        {
+          "name": "Solar Systems",
+          "children": [
+            {
+              "name": "dye sensitized solar-cells"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Industrial and Manufacturing Engineering (IME)",
+      "children": [
+        {
+          "name": "Others",
+          "children": [
+            {
+              "name": "Carbon foot print assessment"
+            },
+            {
+              "name": "Customer needs assessment"
+            },
+            {
+              "name": "Professional Masters in Industrial Engineering and Management"
+            },
+            {
+              "name": "Logistics"
+            },
+            {
+              "name": "SCM Systems"
+            }
+          ]
+        },
+        {
+          "name": "Product Design and Development",
+          "children": [
+            {
+              "name": "Product Designing"
+            },
+            {
+              "name": "Building Material designs"
+            },
+            {
+              "name": "Product Development for Industries"
+            },
+            {
+              "name": "Turbine Designs"
+            },
+            {
+              "name": "Defence technology designing"
+            },
+            {
+              "name": "Hydropower plant designs"
+            }
+          ]
+        },
+        {
+          "name": "Automation Technology",
+          "children": [
+            {
+              "name": "Automated Pneumatic Molding System"
+            }
+          ]
+        },
+        {
+          "name": "Simulation and Modeling",
+          "children": [
+            {
+              "name": "Simulation Modeling"
+            }
+          ]
+        },
+        {
+          "name": "Multicriterion Decision Models",
+          "children": [
+            {
+              "name": "Multi objectives multi echelon"
+            },
+            {
+              "name": "location routing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NanoTechnology",
+      "children": [
+        {
+          "name": "Nanomaterials and Nanotechnology",
+          "children": [
+            {
+              "name": "Nanotechnology"
+            },
+            {
+              "name": "Degradation of dyes"
+            },
+            {
+              "name": "Waste water management"
+            },
+            {
+              "name": "Nanotechnology"
+            },
+            {
+              "name": "Antifouling Coating"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

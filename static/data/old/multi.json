@@ -1,0 +1,221 @@
+{
+  "name": "Interdisciplinary Programs",
+  "children": [
+    {
+      "name": "Disaster Preparedness, Mitigation and Management",
+      "children": [
+        {
+          "name": "Others",
+          "children": [
+            {
+              "name": "Public Health"
+            },
+            {
+              "name": "Disaster Management"
+            },
+            {
+              "name": "flood Mitigation"
+            }
+          ]
+        },
+        {
+          "name": "Vulnerability and Risk Assessment",
+          "children": [
+            {
+              "name": "Hazard Risk"
+            },
+            {
+              "name": "Hazard Perception"
+            },
+            {
+              "name": "Disaster Risk Reduction"
+            }
+          ]
+        },
+        {
+          "name": "Coping and Adaptation",
+          "children": [
+            {
+              "name": "Food security"
+            },
+            {
+              "name": "Urban Agriculture"
+            }
+          ]
+        },
+        {
+          "name": "Institutional and Community Capacity Building",
+          "children": [
+            {
+              "name": "Disaster Resillience"
+            },
+            {
+              "name": "Capacity Building"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Information and Communications Technologies",
+      "children": [
+        {
+          "name": "Wireless Networks",
+          "children": [
+            {
+              "name": "Cross Layer Design"
+            },
+            {
+              "name": "Multi Hop Wireless Networks"
+            },
+            {
+              "name": "Wi-Fi Use"
+            },
+            {
+              "name": "Locations Estimation"
+            }
+          ]
+        },
+        {
+          "name": "Digital Transmission Technologies",
+          "children": [
+            {
+              "name": "Indoor Optical Wireless Data Transmissions"
+            },
+            {
+              "name": "QoS Regulations"
+            },
+            {
+              "name": "Broadband Data Services"
+            }
+          ]
+        },
+        {
+          "name": "Network Planning",
+          "children": [
+            {
+              "name": "Optical Networks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Offshore Technology and Management",
+      "children": [
+        {
+          "name": "Structural Dynamics",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Design of Fixed and Floating Structures",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Oil and Gas Upstream Operations",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Petroleum Production",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Economic Risk and Decision Making",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Probability in Decision Making",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Energy Economics and Financial Management",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Subsea Technology",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Project Management for Oil and Gas project",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Fabrication, decomissioning and marine operations",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Asset Integrity and Infrastructure Management",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Safety Aspects of Offshore Operations",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Drilling and Well Compression Operations",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        },
+        {
+          "name": "Petroleum Reservoir Engineering",
+          "children": [
+            {
+              "name": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
