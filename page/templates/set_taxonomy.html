@@ -1,6 +1,68 @@
 {% extends 'layout.html' %}
 {% block container %}
 
+    <div class="row">
+        <div class="col-md-3 left-faceted">
+            <br>
+            <h4>Faceted Search</h4>
+            <hr>
+            <div id="accordion" class="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne"
+                         aria-expanded="false" aria-controls="collapseOne">
+                        <a class="card-title">Department</a>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <ul class="list-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dept" value="civil" id="checked1" onclick="myCivil()"/>
+                                    <label class="form-check-label" for="checked1">Civil and Infrastructure Engineering</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dept" value="indus" id="checked2" onclick="myIndus()"/>
+                                    <label class="form-check-label" for="checked2">Industrial Systems Engineering</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dept" value="ict" id="checked3" onclick="myICT()"/>
+                                    <label class="form-check-label" for="checked3">Information and Communication Technologies</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="dept" value="indus" id="checked4" onclick="myMulti()"/>
+                                    <label class="form-check-label" for="checked4">Interdisciplinary Programs</label>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {#        Group Item#2        #}
+                <div class="card">
+                    <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo"
+                         aria-expanded="false" aria-controls="collapseTwo">
+                        <a class="card-title">Item#2</a>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid.
+                            3 wolf moon officia aute, non cupidatat skateboard dolor brunch.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-9">
+            <h3>Taxonomy</h3>
+            <p>School of Engineering and Technology</p>
+            <div id="parentChild"></div>
+        </div>
+    </div>
+
+    <!--<button type="button" class="btn btn-default" onclick="myFlare()">Flare</button>-->
+
+    <script src="https://d3js.org/d3.v3.min.js"></script>
     <style>
 
         .node {
@@ -26,15 +88,15 @@
     </style>
 
     <script>
-        // window.onload = function() {
+        // window.onload = function () {
         // do something
 
-        var margin = {top: 20, right: 120, bottom: 20, left: 250},
+        var margin = {top: 20, right: 120, bottom: 20, left: 150},
             width = 960 - margin.right - margin.left,
             height = 800 - margin.top - margin.bottom;
 
         var i = 0,
-            duration = 750,
+            duration = 500,
             root;
 
         var tree = d3.layout.tree()
@@ -45,116 +107,12 @@
                 return [d.y, d.x];
             });
 
-        var svg = d3.select("body").append("svg")
-            .attr("width", width + margin.right + margin.left)
+        var svg = d3.select("#parentChild").append("svg")
+            .attr("width", "100%") //width + margin.right + margin.left
             .attr("height", height + margin.top + margin.bottom)
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        function myCivil() {
-            d3.json('/assets/civil.json', function (error, flare) {
-                if (error) throw error;
-
-                root = flare;
-                root.x0 = height / 2;
-                root.y0 = 0;
-
-                function collapse(d) {
-                    if (d.children) {
-                        d._children = d.children;
-                        d._children.forEach(collapse);
-                        d.children = null;
-                    }
-                }
-
-                root.children.forEach(collapse);
-                update(root);
-            });
-        }
-
-        function myFlare() {
-            d3.json('/assets/flare.json', function (error, flare) {
-                if (error) throw error;
-
-                root = flare;
-                root.x0 = height / 2;
-                root.y0 = 0;
-
-                function collapse(d) {
-                    if (d.children) {
-                        d._children = d.children;
-                        d._children.forEach(collapse);
-                        d.children = null;
-                    }
-                }
-
-                root.children.forEach(collapse);
-                update(root);
-            });
-        }
-
-        function myIndus() {
-            d3.json('/assets/indus.json', function (error, flare) {
-                if (error) throw error;
-
-                root = flare;
-                root.x0 = height / 2;
-                root.y0 = 0;
-
-                function collapse(d) {
-                    if (d.children) {
-                        d._children = d.children;
-                        d._children.forEach(collapse);
-                        d.children = null;
-                    }
-                }
-
-                root.children.forEach(collapse);
-                update(root);
-            });
-        }
-
-        function myICT() {
-            d3.json('/assets/ict.json', function (error, flare) {
-                if (error) throw error;
-
-                root = flare;
-                root.x0 = height / 2;
-                root.y0 = 0;
-
-                function collapse(d) {
-                    if (d.children) {
-                        d._children = d.children;
-                        d._children.forEach(collapse);
-                        d.children = null;
-                    }
-                }
-
-                root.children.forEach(collapse);
-                update(root);
-            });
-        }
-
-        function myMulti() {
-            d3.json('/assets/multi.json', function (error, flare) {
-                if (error) throw error;
-
-                root = flare;
-                root.x0 = height / 2;
-                root.y0 = 0;
-
-                function collapse(d) {
-                    if (d.children) {
-                        d._children = d.children;
-                        d._children.forEach(collapse);
-                        d.children = null;
-                    }
-                }
-
-                root.children.forEach(collapse);
-                update(root);
-            });
-        }
 
         d3.select(self.frameElement).style("height", "800px");
 
@@ -166,7 +124,7 @@
 
             // Normalize for fixed-depth.
             nodes.forEach(function (d) {
-                d.y = d.depth * 180;
+                d.y = d.depth * 165;
             });
 
             // Update the nodes…
@@ -225,7 +183,7 @@
                             }
                             else {
                                 for (var i = 0; i < lines.length; i++) {
-                                    if (i < lines.length - 3) {
+                                    if (i < lines.length - 1) {
                                         d3.select(this).append("tspan")
                                             .attr("dy", space_line)
                                             .attr("x", function (d) {
@@ -241,9 +199,30 @@
                                             .attr("x", function (d) {
                                                 return d.children || d._children ? -10 : 10;
                                             })
-                                            .text(lines[i] + " " + lines[i + 1] + " " + lines[i + 2]);
+                                            .text(lines[i]);
                                         break
                                     }
+
+
+//                                    if (i < lines.length - 3) {
+//                                        d3.select(this).append("tspan")
+//                                            .attr("dy", space_line)
+//                                            .attr("x", function (d) {
+//                                                return d.children || d._children ? -10 : 10;
+//                                            })
+//                                            .text(lines[i] + " " + lines[i + 1]);
+//                                        i++;
+//                                        space_line = "1em";
+//                                    }
+//                                    else {
+//                                        d3.select(this).append("tspan")
+//                                            .attr("dy", space_line)
+//                                            .attr("x", function (d) {
+//                                                return d.children || d._children ? -10 : 10;
+//                                            })
+//                                            .text(lines[i] + " " + lines[i + 1] + " " + lines[i + 2]);
+//                                        break
+ //                                   }
                                 }
                             }
 
@@ -342,29 +321,116 @@
             update(d);
         }
 
+
+        ////////////////////
+
+
+        function myCivil() {
+            d3.json('{{ url_for("static", filename="data/old/civil.json") }}', function (error, flare) {
+                if (error) throw error;
+
+                root = flare;
+                root.x0 = height / 2;
+                root.y0 = 0;
+
+                function collapse(d) {
+                    if (d.children) {
+                        d._children = d.children;
+                        d._children.forEach(collapse);
+                        d.children = null;
+                    }
+                }
+
+                root.children.forEach(collapse);
+                update(root);
+            });
+        }
+
+        function myFlare() {
+            d3.json('/assets/flare.json', function (error, flare) {
+                if (error) throw error;
+
+                root = flare;
+                root.x0 = height / 2;
+                root.y0 = 0;
+
+                function collapse(d) {
+                    if (d.children) {
+                        d._children = d.children;
+                        d._children.forEach(collapse);
+                        d.children = null;
+                    }
+                }
+
+                root.children.forEach(collapse);
+                update(root);
+            });
+        }
+
+        function myIndus() {
+            d3.json('{{ url_for("static", filename="data/old/indus.json") }}', function (error, flare) {
+                if (error) throw error;
+
+                root = flare;
+                root.x0 = height / 2;
+                root.y0 = 0;
+
+                function collapse(d) {
+                    if (d.children) {
+                        d._children = d.children;
+                        d._children.forEach(collapse);
+                        d.children = null;
+                    }
+                }
+
+                root.children.forEach(collapse);
+                update(root);
+            });
+        }
+
+        function myICT() {
+            d3.json('{{ url_for("static", filename="data/old/ict.json") }}', function (error, flare) {
+                if (error) throw error;
+
+                root = flare;
+                root.x0 = height / 2;
+                root.y0 = 0;
+
+                function collapse(d) {
+                    if (d.children) {
+                        d._children = d.children;
+                        d._children.forEach(collapse);
+                        d.children = null;
+                    }
+                }
+
+                root.children.forEach(collapse);
+                update(root);
+            });
+        }
+
+        function myMulti() {
+            d3.json('{{ url_for("static", filename="data/old/multi.json") }}', function (error, flare) {
+                if (error) throw error;
+
+                root = flare;
+                root.x0 = height / 2;
+                root.y0 = 0;
+
+                function collapse(d) {
+                    if (d.children) {
+                        d._children = d.children;
+                        d._children.forEach(collapse);
+                        d.children = null;
+                    }
+                }
+
+                root.children.forEach(collapse);
+                update(root);
+            });
+        }
+
     </script>
-
-
-
-    <div class="row">
-        <div class="col-md-3 left-faceted">
-            <h6>Faceted Search</h6>
-            <hr>
-            <button type="button" class="btn btn-info" onclick="myCivil()">Civil and Infrastructure Engineering</button>
-            <button type="button" class="btn btn-info" onclick="myIndus()">Industrial Systems Engineering</button>
-            <button type="button" class="btn btn-info" onclick="myICT()">Information and Communication Technologies
-            </button>
-            <button type="button" class="btn btn-info" onclick="myMulti()">Interdisciplinary Programs</button>
-
-        </div>
-        <div class="col-xs-12 col-md-9">
-                <h3>Taxonomy</h3>
-                <p>School of Engineering and Technology</p>
-
-        </div>
-    </div>
-
-    <!--<button type="button" class="btn btn-default" onclick="myFlare()">Flare</button>-->
 
 
 {% endblock %}

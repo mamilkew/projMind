@@ -1,5 +1,5 @@
 import os
-from flask import Blueprint, render_template, json
+from flask import Blueprint, render_template, json, url_for
 
 
 page = Blueprint('page', __name__, template_folder='templates')
@@ -17,6 +17,7 @@ def country_map():
 
 @page.route('/set-taxonomy')
 def set_taxonomy():
+    # url_for('static', filename='data/old/civil.json')
     return render_template("set_taxonomy.html")
 
 
@@ -54,7 +55,7 @@ def pj_results():
     # head = jsdata.get('head')
     new_results['nodes'] = nodes
     new_results['edges'] = edges
-    print(new_results)
+    # print(new_results)
     # js_results = json.dumps(new_results)
     # print(js_results)
     return render_template("pj_results.html", data=new_results)
