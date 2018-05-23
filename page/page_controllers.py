@@ -36,13 +36,13 @@ def pj_results():
     nodes = []
     edges = []
     for result in results:
-        nodes.append({'name': result['project']['value']})
+        nodes.append({'name': result['project']['value'].split('#')[-1]})
         project = len(nodes) - 1
-        nodes.append({'name': result['donor']['value']})
+        nodes.append({'name': result['donor']['value'].split('#')[-1]})
         donor = len(nodes) - 1
-        nodes.append({'name': result['type']['value']})
+        nodes.append({'name': result['type']['value'].split('#')[-1]})
         type = len(nodes) - 1
-        nodes.append({'name': result['country']['value']})
+        nodes.append({'name': result['country']['value'].split('#')[-1]})
         country = len(nodes) - 1
         nodes.append({'name': result['cmmt']['value']})
         cmmt = len(nodes) - 1
