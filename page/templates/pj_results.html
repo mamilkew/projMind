@@ -65,186 +65,231 @@
     <script type="text/javascript">
         // window.onload = function () {
 
-            var margin = {top: 20, right: 120, bottom: 20, left: 250},
-                w = 800 - margin.right - margin.left,
-                h = 600 - margin.top - margin.bottom;
+        var margin = {top: 20, right: 50, bottom: 20, left: 150},
+            w = 800 - margin.right - margin.left,
+            h = 600 - margin.top - margin.bottom;
 
-            {#var w = 1000;#}
-            {#var h = 600;#}
-            var linkDistance = 100;
+        {#var w = 1000;#}
+        {#var h = 600;#}
+        var linkDistance = 100;
 
-            var colors = d3.scale.category10();
+        var colors = d3.scale.category10();
 
-            var dataset = JSON.parse('{{ data | tojson | safe }}');
+        var dataset = JSON.parse('{{ data | tojson | safe }}');
 
-            var svg = d3.select("#forcegraph").append("svg").attr({"width": w + margin.right + margin.left, "height": h + margin.top + margin.bottom});
-            {#var svg = d3.select("#forcegraph").append("svg:svg").attr({"width": w, "height": h});#}
+        var zoom = d3.behavior.zoom()
+            .scaleExtent([0.07, 5])
+            .on("zoom", zoomed);
 
-            var force = d3.layout.force()
-                .nodes(dataset.nodes)
-                .links(dataset.edges)
-                .size([w, h])
-                .linkDistance([linkDistance])
-                .charge([-200])
-                .theta(0.1)
-                .gravity(0.05)
-                .start();
+        var svg = d3.select("#forcegraph").append("svg")
+            .attr("width", w + margin.right + margin.left)
+            .attr("height", h + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.right + ")")
+            .call(zoom)
+        {#var svg = d3.select("#forcegraph").append("svg:svg").attr({"width": w, "height": h});#}
 
+        var container = svg.append("g");
 
-            var edges = svg.selectAll("line")
-                .data(dataset.edges)
-                .enter()
-                .append("line")
-                .attr("id", function (d, i) {
-                    return 'edge' + i
-                })
-                .attr('marker-end', 'url(#arrowhead)')
-                .style("stroke", "#ccc")
-                .style("pointer-events", "none");
-
-            var nodes = svg.selectAll("circle")
-                .data(dataset.nodes)
-                .enter()
-                .append("circle")
-                .attr({"r": 15})
-                .style("fill", function (d, i) {
-                    return colors(i);
-                })
-                .call(force.drag)
+        var force = d3.layout.force()
+            .nodes(dataset.nodes)
+            .links(dataset.edges)
+            .size([w, h])
+            .linkDistance([linkDistance])
+            .charge([-200])
+            .theta(0.1)
+            .gravity(0.05)
+            .start();
 
 
-            var nodelabels = svg.selectAll(".nodelabel")
-                .data(dataset.nodes)
-                .enter()
-                .append("text")
-                .attr({
-                    "x": function (d) {
-                        return d.x;
-                    },
-                    "y": function (d) {
-                        return d.y;
-                    },
-                    "class": "nodelabel",
-                    "stroke": "black"
-                })
-                .text(function (d) {
-                    return d.name;
-                });
+//        var edges = svg.selectAll("line")
+        var edges = container.append("g")
+            .selectAll("line")
+            .data(dataset.edges)
+            .enter()
+            .append("line")
+            .attr("id", function (d, i) {
+                return 'edge' + i
+            })
+            .attr('marker-end', 'url(#arrowhead)')
+            .style("stroke", "#ccc")
+            .style("pointer-events", "none");
 
-            var edgepaths = svg.selectAll(".edgepath")
-                .data(dataset.edges)
-                .enter()
-                .append('path')
-                .attr({
-                    'd': function (d) {
-                        return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y
-                    },
-                    'class': 'edgepath',
-                    'fill-opacity': 0,
-                    'stroke-opacity': 0,
-                    'fill': 'blue',
-                    'stroke': 'red',
-                    'id': function (d, i) {
-                        return 'edgepath' + i
-                    }
-                })
-                .style("pointer-events", "none");
-
-            var edgelabels = svg.selectAll(".edgelabel")
-                .data(dataset.edges)
-                .enter()
-                .append('text')
-                .style("pointer-events", "none")
-                .attr({
-                    'class': 'edgelabel',
-                    'id': function (d, i) {
-                        return 'edgelabel' + i
-                    },
-                    'dx': 80,
-                    'dy': 0,
-                    'font-size': 10,
-                    'fill': '#aaa'
-                });
-
-            edgelabels.append('textPath')
-                .attr('xlink:href', function (d, i) {
-                    return '#edgepath' + i
-                })
-                .style("pointer-events", "none")
-                .text(function (d, i) {
-                    return 'label ' + i
-                });
+//        var nodes = svg.selectAll("circle")
+        var nodes = container.append("g")
+            .selectAll("circle")
+            .data(dataset.nodes)
+            .enter()
+            .append("circle")
+            .attr({"r": 15})
+            .style("fill", function (d, i) {
+                return colors(i);
+            })
+            .call(force.drag)
 
 
-            svg.append('defs').append('marker')
-                .attr({
-                    'id': 'arrowhead',
-                    'viewBox': '-0 -5 10 10',
-                    'refX': 25,
-                    'refY': 0,
-                    //'markerUnits':'strokeWidth',
-                    'orient': 'auto',
-                    'markerWidth': 10,
-                    'markerHeight': 10,
-                    'xoverflow': 'visible'
-                })
-                .append('svg:path')
-                .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
-                .attr('fill', '#ccc')
-                .attr('stroke', '#ccc');
-
-
-            force.on("tick", function () {
-
-                edges.attr({
-                    "x1": function (d) {
-                        return d.source.x;
-                    },
-                    "y1": function (d) {
-                        return d.source.y;
-                    },
-                    "x2": function (d) {
-                        return d.target.x;
-                    },
-                    "y2": function (d) {
-                        return d.target.y;
-                    }
-                });
-
-                nodes.attr({
-                    "cx": function (d) {
-                        return d.x;
-                    },
-                    "cy": function (d) {
-                        return d.y;
-                    }
-                });
-
-                nodelabels.attr("x", function (d) {
+//        var nodelabels = svg.selectAll(".nodelabel")
+        var nodelabels = container.append("g")
+            .selectAll(".nodelabel")
+            .data(dataset.nodes)
+            .enter()
+            .append("text")
+            .attr({
+                "x": function (d) {
                     return d.x;
-                })
-                    .attr("y", function (d) {
-                        return d.y;
-                    });
-
-                edgepaths.attr('d', function (d) {
-                    var path = 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
-                    //console.log(d)
-                    return path
-                });
-
-                edgelabels.attr('transform', function (d, i) {
-                    if (d.target.x < d.source.x) {
-                        bbox = this.getBBox();
-                        rx = bbox.x + bbox.width / 2;
-                        ry = bbox.y + bbox.height / 2;
-                        return 'rotate(180 ' + rx + ' ' + ry + ')';
-                    }
-                    else {
-                        return 'rotate(0)';
-                    }
-                });
+                },
+                "y": function (d) {
+                    return d.y;
+                },
+                "class": "nodelabel",
+                "stroke": "black"
+            })
+            .text(function (d) {
+                return d.name;
             });
+
+//        var edgepaths = svg.selectAll(".edgepath")
+        var edgepaths = container.append("g")
+            .selectAll(".edgepath")
+            .data(dataset.edges)
+            .enter()
+            .append('path')
+            .attr({
+                'd': function (d) {
+                    return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y
+                },
+                'class': 'edgepath',
+                'fill-opacity': 0,
+                'stroke-opacity': 0,
+                'fill': 'blue',
+                'stroke': 'red',
+                'id': function (d, i) {
+                    return 'edgepath' + i
+                }
+            })
+            .style("pointer-events", "none");
+
+//        var edgelabels = svg.selectAll(".edgelabel")
+        var edgelabels = container.append("g")
+            .selectAll(".edgelabel")
+            .data(dataset.edges)
+            .enter()
+            .append('text')
+            .style("pointer-events", "none")
+            .attr({
+                'class': 'edgelabel',
+                'id': function (d, i) {
+                    return 'edgelabel' + i
+                },
+                'dx': 80,
+                'dy': 0,
+                'font-size': 10,
+                'fill': '#aaa'
+            });
+
+        edgelabels.append('textPath')
+            .attr('xlink:href', function (d, i) {
+                return '#edgepath' + i
+            })
+            .style("pointer-events", "none")
+            .text(function (d, i) {
+                return 'label ' + i
+            });
+
+
+        svg.append('defs').append('marker')
+            .attr({
+                'id': 'arrowhead',
+                'viewBox': '-0 -5 10 10',
+                'refX': 25,
+                'refY': 0,
+                //'markerUnits':'strokeWidth',
+                'orient': 'auto',
+                'markerWidth': 10,
+                'markerHeight': 10,
+                'xoverflow': 'visible'
+            })
+            .append('svg:path')
+            .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+            .attr('fill', '#ccc')
+            .attr('stroke', '#ccc');
+
+
+        force.on("tick", function () {
+
+            edges.attr({
+                "x1": function (d) {
+                    return d.source.x;
+                },
+                "y1": function (d) {
+                    return d.source.y;
+                },
+                "x2": function (d) {
+                    return d.target.x;
+                },
+                "y2": function (d) {
+                    return d.target.y;
+                }
+            });
+
+            nodes.attr({
+                "cx": function (d) {
+                    return d.x;
+                },
+                "cy": function (d) {
+                    return d.y;
+                }
+            });
+
+            nodelabels.attr("x", function (d) {
+                return d.x;
+            })
+                .attr("y", function (d) {
+                    return d.y;
+                });
+
+            edgepaths.attr('d', function (d) {
+                var path = 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
+                //console.log(d)
+                return path
+            });
+
+            edgelabels.attr('transform', function (d, i) {
+                if (d.target.x < d.source.x) {
+                    bbox = this.getBBox();
+                    rx = bbox.x + bbox.width / 2;
+                    ry = bbox.y + bbox.height / 2;
+                    return 'rotate(180 ' + rx + ' ' + ry + ')';
+                }
+                else {
+                    return 'rotate(0)';
+                }
+            });
+        });
+
+        function zoomed() {
+            container.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+        }
+
+
+        //////////// This is the zoom handler
+        {# var zoom_handler = d3.zoom()
+             .on("zoom", zoom_actions);
+
+         //specify what to do when zoom event listener is triggered
+         function zoom_actions() {
+             g.attr("transform", d3.event.transform);
+             var transform = d3.zoomTransform(this);
+             $('#zoomlevel').text("Zoom: " + transform.k.toFixed(3));
+         }
+
+         // initial scaling on the svg container - this means everything in it is scaled as well
+         svg.call(zoom_handler)
+             .call(zoom_handler.transform, d3.zoomIdentity.scale(0.5, 0.5))
+         ;
+
+         zoom_handler(svg);#}
+
 
     </script>
 
