@@ -17,19 +17,26 @@
                         <div class="card-body">
                             <ul class="list-group">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="dept" value="civil" id="checked1" onclick="myCivil()"/>
-                                    <label class="form-check-label" for="checked1">Civil and Infrastructure Engineering</label>
+                                    <input class="form-check-input" type="radio" name="dept" value="civil" id="checked1"
+                                           onclick="myCivil()"/>
+                                    <label class="form-check-label" for="checked1">Civil and Infrastructure
+                                        Engineering</label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="dept" value="indus" id="checked2" onclick="myIndus()"/>
-                                    <label class="form-check-label" for="checked2">Industrial Systems Engineering</label>
+                                    <input class="form-check-input" type="radio" name="dept" value="indus" id="checked2"
+                                           onclick="myIndus()"/>
+                                    <label class="form-check-label" for="checked2">Industrial Systems
+                                        Engineering</label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="dept" value="ict" id="checked3" onclick="myICT()"/>
-                                    <label class="form-check-label" for="checked3">Information and Communication Technologies</label>
+                                    <input class="form-check-input" type="radio" name="dept" value="ict" id="checked3"
+                                           onclick="myICT()"/>
+                                    <label class="form-check-label" for="checked3">Information and Communication
+                                        Technologies</label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="dept" value="indus" id="checked4" onclick="myMulti()"/>
+                                    <input class="form-check-input" type="radio" name="dept" value="indus" id="checked4"
+                                           onclick="myMulti()"/>
                                     <label class="form-check-label" for="checked4">Interdisciplinary Programs</label>
                                 </div>
                             </ul>
@@ -113,8 +120,26 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
         d3.select(self.frameElement).style("height", "800px");
+
+        d3.json('{{ url_for("static", filename="data/old/set.json") }}', function (error, flare) {
+            if (error) throw error;
+
+            root = flare;
+            root.x0 = height / 2;
+            root.y0 = 0;
+
+            function collapse(d) {
+                if (d.children) {
+                    d._children = d.children;
+                    d._children.forEach(collapse);
+                    d.children = null;
+                }
+            }
+
+            root.children.forEach(collapse);
+            update(root);
+        });
 
         function update(source) {
 
@@ -222,7 +247,7 @@
 //                                            })
 //                                            .text(lines[i] + " " + lines[i + 1] + " " + lines[i + 2]);
 //                                        break
- //                                   }
+                                    //                                   }
                                 }
                             }
 
@@ -327,27 +352,6 @@
 
         function myCivil() {
             d3.json('{{ url_for("static", filename="data/old/civil.json") }}', function (error, flare) {
-                if (error) throw error;
-
-                root = flare;
-                root.x0 = height / 2;
-                root.y0 = 0;
-
-                function collapse(d) {
-                    if (d.children) {
-                        d._children = d.children;
-                        d._children.forEach(collapse);
-                        d.children = null;
-                    }
-                }
-
-                root.children.forEach(collapse);
-                update(root);
-            });
-        }
-
-        function myFlare() {
-            d3.json('/assets/flare.json', function (error, flare) {
                 if (error) throw error;
 
                 root = flare;

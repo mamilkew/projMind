@@ -1,0 +1,17 @@
+{
+  "name": "School of Engineering Technology",
+  "children": [
+    {
+      "name": "Civil and Infrastructure Engineering"
+    },
+    {
+      "name": "Industrial Systems Engineering"
+    },
+    {
+      "name": "Information and Communication Technologies"
+    },
+    {
+      "name": "Interdisciplinary Programs"
+    }
+  ]
+}
