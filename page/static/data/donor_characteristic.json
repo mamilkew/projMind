@@ -1,0 +1,1077 @@
+{
+  "head" : {
+    "vars" : [
+      "donor",
+      "predicate",
+      "object"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AdministrativeTrainingInstitute"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Administrative Training Institute (ATI), Mysore, India"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AdministrativeTrainingInstitute"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Administrative Training Institute, Mysore, Government of India"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AdministrativeTrainingInstitute"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Administrative Training Institute (ATI)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AdministrativeTrainingInstitute"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "ATI"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AfterSchoolEnrichmentProgram"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "After School Enrichment Program (ASEP)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AfterSchoolEnrichmentProgram"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "ASEP"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AgriculturealReaearchDevelopmentAgency"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Agricultureal Reaearch Development Agency (ARDA)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AgriculturealReaearchDevelopmentAgency"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "ARDA"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Asia-Pacific Network for Global Change Research (APN)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Asia-Pacific Network for Global Change Research (APN), Japan"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Asia-PacificNetworkForGlobalChangeResearch"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "APN"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Asian Disaster Preparedness Center (ADPC)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Prevention Consortium, Asian Disaster Preparedness Center (ADPC)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianDisasterPreparednessCenter"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "ADPC"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianInstituteOfTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "AIT - Research Initiation"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianInstituteOfTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Asian Institute of Technology (AIT)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianInstituteOfTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "AIT"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianOfficeOfAerospaceResearchAndDevelopment"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Asian Office of Aerospace Research and Development (AOARD)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AsianOfficeOfAerospaceResearchAndDevelopment"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "AOARD"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ConstructionCorporationsInVietnam"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Construction Corporation in Vietnam"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#DWF"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "DWF"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#DonaldsonCompanyThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Donaldson Company, Thailand"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#EngineeringInstituteOfThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Engineering Institute of Thailand (EIT)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#EngineeringInstituteOfThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "EIT"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies -Vietnam"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FECONAndOtherGeotechnicalCompaniesInVietnam"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "FECON and other Geotechnical Companies - Vietnam"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FabrinetCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Fabrinet Co., Ltd."
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FederationInternationalVehiculesAnciens"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Federation International Vehicules Anciens (FIVA)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FederationInternationalVehiculesAnciens"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "FIVA"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FoodAndAgricultureOrganization"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Food and Agriculture Organization (FAO)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#FoodAndAgricultureOrganization"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "FAO"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#GeologicalSurveyOfDenmarkAndGreenland"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Geological Survey of Denmark and Greenland (GEUS)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#GeologicalSurveyOfDenmarkAndGreenland"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "GEUS"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "HCM City_Vietnam"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HCMCityVietnam"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "HCM City, Vietnam"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HYUNDAIEngineering"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "HYUNDAI Engineering &7 Construction Korea"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HumansServicesResearchInstitute"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Humans Services Research Institute (HSRI)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HumansServicesResearchInstitute"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "HSRI"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#KokusaiKogyoCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Kokusai Kogyo Co.,Ltd."
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Mander Portman Woodward (MPW)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Mander Portman Woodward (MPW) - Indonesia"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ManderPortmanWoodward"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "MPW"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#MinistryOfWorksAndHumanSettlementsBhutan"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Ministry of Works and Human Settlements, Bhutan"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalElectronicsAndComputerTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "National Electronics and Computer Technology (NECTEC)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalElectronicsAndComputerTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "NECTEC"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalNanotechnologyCenter"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "National Nanotechnology Center (NANOTEC)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalNanotechnologyCenter"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "National Nanotechnology Center (NANOTEC)-Thailand"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalNanotechnologyCenter"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "NANOTEC"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalResearchCouncilOfThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "National Research Council of Thailand (NRCT)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalResearchCouncilOfThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "NRCT"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalScienceAndTechnologyDevelopmentAgency"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "National Science and Technology Development Agency (NSTDA)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NationalScienceAndTechnologyDevelopmentAgency"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "NSTDA"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PTTPublicCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "PTT Public Company Limited, Thailand"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PTTPublicCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "PTT Company of Thailand"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PruksaRealEstateCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Pruksa Real Estate Co., Ltd.-Thailand"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PruksaRealEstateCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Pruksa Real Estate Co., Ltd."
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PublicHealthInstitute-NationalMinistryOfHealth-Sudan"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Public Health Institute, National Ministry of Health, Sudan"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RamsarConventionSecretariat-Switzerland"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Ramsar Convention Secretariat, Switzerland"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Royal Thai Government (RTG)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#RoyalThaiGovernment"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "RTG"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SVIPublicCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "SVI Public Co. Ltd"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SolimacAutomationCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Solimac Automation Co., Ltd."
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#SolimacAutomationCompanyLimited"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Solimac Co. Ltd"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TEAMConsulting"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "TEAM Consulting & Eng'g Management Co. Ltd."
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "The Thailand Research Fund (TRF)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TheThailandResearchFund"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "TRF"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TokyoInstituteOfTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Tokyo Institute of Technology (TIT)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TokyoInstituteOfTechnology"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "TIT"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Toyo-Thai Corporation Public Company Limited (TTCL)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Toyo-Thai Corporation Public Company Limited"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ToyoThai"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#label"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "TTCL"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#UniversityOfNewcastle-Australia"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "University of Newcastle, Australia"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH)"
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#WesternDigitalThailand"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Western Digital (TH) Co. Ltd."
+        }
+      },
+      {
+        "donor" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#YamahaMotor"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2000/01/rdf-schema#comment"
+        },
+        "object" : {
+          "type" : "literal",
+          "value" : "Yamaha Motor, Co., Ltd."
+        }
+      }
+    ]
+  }
+}
