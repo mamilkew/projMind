@@ -71,8 +71,16 @@ def donor_to_pj():
     edges = []
 
     for result in results:
-        # --------donor class---------
+        # initiate variable
         donor_type = {'name': result.get('class').get('value').split('#')[-1]}
+        if result.get('donor') is not None:
+            donor_instance = {'name': result.get('donor').get('value').split('#')[-1]}
+            country = {'name': result.get('country').get('value').split('#')[-1]}
+            donor_name = {'name': result.get('name').get('value')}
+        if result.get('project') is not None:
+            project = {'name': result.get('project').get('value').split('#')[-1]}
+
+        # --------donor class---------
         if donor_type not in nodes:
             nodes.append(donor_type)
             edge_class = len(nodes) - 1
@@ -86,33 +94,47 @@ def donor_to_pj():
                 edge_category = len(nodes) - 1
             else:
                 edge_category = nodes.index(donor_subtype)
-            edges.append({'source': edge_class, 'target': edge_category})
+            # edges.append({'source': edge_class, 'target': edge_category})
 
             # --------donor instance---------
             if result.get('donor') is not None:
-                donor_instance = {'name': result.get('donor').get('value').split('#')[-1]}
                 if donor_instance not in nodes:
                     nodes.append(donor_instance)
                     edge_instance = len(nodes) - 1
                 else:
                     edge_instance = nodes.index(donor_instance)
                 edges.append({'source': edge_category, 'target': edge_instance})
+                nodes.append(country)
+                edge_country = len(nodes) - 1
+                nodes.append(donor_name)
+                edge_name = len(nodes) - 1
+                edges.append({'source': edge_instance, 'target': edge_country})
+                edges.append({'source': edge_instance, 'target': edge_name})
+                if result.get('project') is not None:
+                    nodes.append(project)
+                    edge_project = len(nodes) - 1
+                    edges.append({'source': edge_instance, 'target': edge_project})
         else:
             # --------donor instance no category---------
             if result.get('donor') is not None:
-                donor_instance = {'name': result.get('donor').get('value').split('#')[-1]}
                 if donor_instance not in nodes:
                     nodes.append(donor_instance)
                     edge_instance = len(nodes) - 1
                 else:
                     edge_instance = nodes.index(donor_instance)
                 edges.append({'source': edge_class, 'target': edge_instance})
+                nodes.append(country)
+                edge_country = len(nodes) - 1
+                nodes.append(donor_name)
+                edge_name = len(nodes) - 1
+                edges.append({'source': edge_instance, 'target': edge_country})
+                edges.append({'source': edge_instance, 'target': edge_name})
+                if result.get('project') is not None:
+                    nodes.append(project)
+                    edge_project = len(nodes) - 1
+                    edges.append({'source': edge_instance, 'target': edge_project})
 
-
-        # country = {'name': result['country']['value'].split('#')[-1]}
-        # donor_name = {'name': result['name']['value']}
-        # project = {'name': result['project']['value'].split('#')[-1]}
     new_results['nodes'] = nodes
     new_results['edges'] = edges
-    print(new_results)
+    # print(new_results)
     return render_template("donor_to_pj.html", data=new_results)
