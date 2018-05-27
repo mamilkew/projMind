@@ -1,0 +1,392 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "children"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ceim-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#gepg-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#gte-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#se-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#te-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#wem-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#cs-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#im-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#rsgis-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#tc-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ceim-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#civil-dept"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#cs-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-dept"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#dpmm-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#indisprograms-dept"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#gepg-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#gte-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ime-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ise-dept"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#im-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#mec-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#mes-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#nano-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#otm-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#rsgis-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#se-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#tc-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#te-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#set-school"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#wem-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#indisprograms-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#dpmm-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#indisprograms-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ict-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#indisprograms-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#otm-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ise-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ime-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ise-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#mec-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ise-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#mes-fos"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#ise-dept"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#nano-fos"
+        }
+      }
+    ]
+  }
+}
