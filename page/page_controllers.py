@@ -17,6 +17,88 @@ def country_map():
 @page.route('/set-taxonomy')
 def set_taxonomy():
     # url_for('static', filename='data/old/civil.json')
+    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+    json_url = os.path.join(SITE_ROOT, "static/data", "org_includes_org.json")
+    data = json.load(open(json_url))
+    results = data['results']['bindings']
+    # new_results = {'name': 'SET', 'children': []}
+    new_results = {}
+
+    n_results = []
+    parents = []
+    for each in results:
+        for key in (each.keys() | each.keys()):
+            if key == 'name':
+                parents.append(each[key].get('value').split('#')[-1])
+    parents = sorted(list(set(parents)))
+    print(parents)
+
+    for parent in parents:
+        children = []
+        for each in results:
+            for key in (each.keys() | each.keys()):
+                if key == 'name' and each[key].get('value').split('#')[-1] == parent:
+                    children.append(each['children'].get('value').split('#')[-1])
+        children = sorted(children)
+        # print(children)
+        keys = []
+        for child in children:
+            if child in parents:
+                keys.append({'name': child})
+            else:
+                keys.append({'name': child})
+        # print(keys)
+
+        for each in results:
+            for key in (each.keys() | each.keys()):
+                if key == 'name' and each[key].get('value').split('#')[-1] == parent:
+                    add = {'name': parent, 'children': keys}
+                    if add not in n_results:
+                        n_results.append(add)
+
+        for n in n_results:
+            print('---n---')
+            print(n)
+            for c in n.get('children'):
+                if c.get('name') in parents:
+                    print('---c---')
+                    print(c)
+                    for idx, transitive in enumerate(n_results):
+                        if transitive.get('name') == c.get('name'):
+                            c['children'] = transitive.get('children')
+                            # del n_results[idx] #ลบ กลุ่มที่มายัดไส้ ทิ้ง
+                    print(c)
+    print('============')
+    print(n_results)
+
+
+
+    # children = []
+    # out = []
+    #
+    # for idx, result in enumerate(results):
+    #     childrens = []
+    #     name1 = result.get('name').get('value').split('#')[-1]
+    #     # child1 = {'name': result.get('children').get('value').split('#')[-1]}
+    #     for idy, in_result in enumerate(results):
+    #         name2 = in_result.get('name').get('value').split('#')[-1]
+    #         child2 = {'name': in_result.get('children').get('value').split('#')[-1]}
+    #         if name1 == name2:
+    #             childrens.append(child2)
+    #             # if idx != idy:
+    #             #     out.append(idy)
+    #     new = {'name': name1, 'children': childrens}
+    #     if new not in children:
+    #         children.append(new)
+    #     print(new)
+    # print(children)
+
+    new_results['name'] = 'SCHOOL'
+    new_results['children'] = n_results
+
+    with open("test.json", "w") as fo:
+        fo.write(json.dumps(new_results))
+
     return render_template("set_taxonomy.html")
 
 
@@ -138,3 +220,38 @@ def donor_to_pj():
     new_results['edges'] = edges
     # print(new_results)
     return render_template("donor_to_pj.html", data=new_results)
+
+
+def pee_nut():
+    n_results = []
+    parents = []
+    for each in results:
+        for key in (each.keys() | each.keys()):
+            if key == 'name':
+                parents.append(each[key].get('value').split('#')[-1])
+    parents = sorted(list(set(parents)))
+    print(parents)
+
+    for parent in parents:
+        children = []
+        for each in results:
+            for key in (each.keys() | each.keys()):
+                if key == 'name' and each[key].get('value').split('#')[-1] == parent:
+                    children.append(each['children'].get('value').split('#')[-1])
+        children = sorted(children)
+        print(children)
+        keys = []
+        for child in children:
+            if child in parents:
+                keys.append({'name': child})
+            else:
+                keys.append({'name': child})
+        print(keys)
+
+        for each in results:
+            for key in (each.keys() | each.keys()):
+                if key == 'name' and each[key].get('value').split('#')[-1] == parent:
+                    add = {'name': parent, 'children': keys}
+                    if add not in n_results:
+                        n_results.append(add)
+        print(n_results)
