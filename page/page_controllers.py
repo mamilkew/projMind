@@ -4,6 +4,7 @@ from flask import Blueprint, render_template, json, request
 page = Blueprint('page', __name__, template_folder='templates')
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 
+
 @page.route('/')
 def index():
     return render_template("index.html")
@@ -27,7 +28,7 @@ def sparql_taxonomy():
     subjects = sorted(list(set(subjects)))
     print(subjects)
 
-    json_url = os.path.join(SITE_ROOT, "static/api", "org_predicate_dropdown.json")
+    json_url = os.path.join(SITE_ROOT, "static/api", "my_dropdown.json")
     data = json.load(open(json_url))
     results = data['results']['bindings']
     predicates = []
@@ -35,7 +36,9 @@ def sparql_taxonomy():
     for each in results:
         for key in (each.keys() | each.keys()):
             if key == 'predicate':
-                predicates.append(each[key].get('value').split('#')[-1])
+                predicates.append(
+                    each['class'].get('value').split('#')[-1] + '#' + each[key].get('value').split('#')[-1] + '#' +
+                    each['range'].get('value').split('#')[-1])
             else:
                 ranges.append(each[key].get('value').split('#')[-1])
     predicates = sorted(list(set(predicates)))
@@ -50,7 +53,7 @@ def sparql_taxonomy():
     return render_template("sparql_taxonomy.html", data=relations)
 
 
-@page.route('/sparql', methods=['POST'])
+@page.route('/sparql', methods=['POST'])  # ajax for submit query script
 def sparql():
     s = request.form['sellist1']
     p = request.form['sellist2']
@@ -60,13 +63,15 @@ def sparql():
               'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>',
               'PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>',
               'PREFIX aitslt: <http://www.semanticweb.org/milkk/ontologies/2017/11/testData#>']
-    text = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:'+s+' . ?name aitslt:'+p+' ?children . optional{?children rdf:type aitslt:'+o+' .}}'
-
+    text = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:' + s + ' . ?name aitslt:' + p + ' ?children . optional{?children rdf:type aitslt:' + o + ' .}}'
+    # result will correct if sparql same
     expected = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:OrganizationUnit . ?name aitslt:includes ?children . optional{?children rdf:type aitslt:OrganizationUnit .}}'
     if text == expected:
+        # result should be return here!
+        # read_sparql_result()  # transfer to d3js pattern
         return json.dumps({'status': 'OK', 'prefix': prefix, 'query': text})
     else:
-        return json.dumps({'status': 'something wrong', 'query': s+p+o})
+        return json.dumps({'status': 'something wrong', 'query': s + p + o})
 
 
 @page.route('/set-taxonomy')
@@ -192,6 +197,7 @@ def donor_to_pj():
     new_results['edges'] = edges
     # print(new_results)
     return render_template("donor_to_pj.html", data=new_results)
+
 
 # backup
 def pee_nut():

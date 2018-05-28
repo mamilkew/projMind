@@ -11,6 +11,7 @@
                         <div class="form-group col">
                             <label for="subject">Subject (select one):</label>
                             <select class="form-control" id="subject" name="sellist1">
+                                <option disabled selected> -- select an option --</option>
                                 {% for each in data.subjects %}
                                     <option>{{ each }}</option>
                                 {% endfor %}
@@ -20,13 +21,14 @@
                             <label for="predicate">Predicate (select one):</label>
                             <select class="form-control" id="predicate" name="sellist2">
                                 {% for each in data.predicates %}
-                                    <option>{{ each }}</option>
+                                    <option mysubject="{{ each.split('#')[0] }}"
+                                            myrange="{{ each.split('#')[-1] }}">{{ each.split('#')[1] }}</option>
                                 {% endfor %}
                             </select>
                         </div>
                         <div class="form-group col">
-                            <label for="object">Object (select one):</label>
-                            <select class="form-control" id="object" name="sellist3">
+                            <label for="range">Range (select one):</label>
+                            <select class="form-control" id="range" name="sellist3">
                                 {% for each in data.ranges %}
                                     <option>{{ each }}</option>
                                 {% endfor %}
@@ -35,6 +37,8 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+                <div id="try"></div>
+                <div id="try2"></div>
             </div>
         </div>
     </div>
@@ -56,6 +60,55 @@
                 });
                 e.preventDefault();
             });
+
+            $.fn.toggleOption = function (show) {
+                $(this).toggle(show);
+                if (show) {
+                    if ($(this).parent('span.toggleOption').length)
+                        $(this).unwrap();
+                } else {
+                    if ($(this).parent('span.toggleOption').length == 0)
+                        $(this).wrap('<span class="toggleOption" style="display: none;" />');
+                }
+            };
+
+            $("#subject").change(function () {
+//                var str = "";
+                var mysubject = $("#subject").children(":selected").text();
+                ;
+                var predicate = "";
+//                $("select#subject option:selected").each(function () {
+//                    str += $(this).text() + " ";
+//                    mysubject = $(this).text();
+//                });
+                $("#predicate option").each(function () {
+                    predicate = $(this).attr('mysubject');
+                    if (mysubject != predicate) {
+                        $(this).toggleOption(false);
+                    } else {
+                        $(this).toggleOption(true);
+                    }
+                });
+                {#$("#predicate")[0].selectedIndex = 0;#}
+                $("#try").text('---' + mysubject + '=' + predicate);
+
+                alert("-----" + $("#predicate").children(":selected").text());
+
+                $("#predicate").change(function () {
+                    var check_p = $("#predicate").children(":selected").text();
+                    var myrange = $("#predicate").children(":selected").attr('myrange');
+                    {#alert(myrange)#}
+                    $("#range option").each(function () {
+                        if (myrange != $(this).text()) {
+                            $(this).toggleOption(false);
+                        } else {
+                            $(this).toggleOption(true);
+                        }
+                    });
+                    $("#try2").text(check_p + '=' + myrange);
+                }).change();
+            }).change();
+
         });
     </script>
 

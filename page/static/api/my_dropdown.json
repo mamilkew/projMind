@@ -1,0 +1,66 @@
+{
+  "head" : {
+    "vars" : [
+      "class",
+      "predicate",
+      "range"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        },
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#includes"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        },"predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#under"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        },"predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#hasLocation"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        },"predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isInCountry"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Country"
+        }
+      }
+    ]
+  }
+}
