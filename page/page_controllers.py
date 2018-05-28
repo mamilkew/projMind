@@ -57,19 +57,19 @@ def set_taxonomy():
                         n_results.append(add)
 
         for n in n_results:
-            print('---n---')
-            print(n)
+            # print('---n---')
+            # print(n)
             for c in n.get('children'):
                 if c.get('name') in parents:
-                    print('---c---')
-                    print(c)
+                    # print('---c---')
+                    # print(c)
                     for idx, transitive in enumerate(n_results):
                         if transitive.get('name') == c.get('name'):
                             c['children'] = transitive.get('children')
-                            # del n_results[idx] #ลบ กลุ่มที่มายัดไส้ ทิ้ง
-                    print(c)
-    print('============')
-    print(n_results)
+                            del n_results[idx] #ลบ กลุ่มที่มายัดไส้ ทิ้ง
+                    # print(c)
+    # print('============')
+    # print(n_results)
 
 
 
@@ -96,7 +96,7 @@ def set_taxonomy():
     new_results['name'] = 'SCHOOL'
     new_results['children'] = n_results
 
-    with open("test.json", "w") as fo:
+    with open("static/data/old/results.json", "w") as fo:
         fo.write(json.dumps(new_results))
 
     return render_template("set_taxonomy.html")
