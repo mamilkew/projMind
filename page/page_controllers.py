@@ -1,5 +1,5 @@
 import os
-from flask import Blueprint, render_template, json
+from flask import Blueprint, render_template, json, request
 
 page = Blueprint('page', __name__, template_folder='templates')
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -14,10 +14,32 @@ def country_map():
     return render_template("country_map.html")
 
 
+@page.route('/sparql_taxonomy')
+def sparql_taxonomy():
+    return render_template("sparql_taxonomy.html")
+
+
+@page.route('/sparql', methods=['POST'])
+def sparql():
+    s = request.form['sellist1']
+    p = request.form['sellist2']
+    o = request.form['sellist3']
+    prefix = ['PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>',
+              'PREFIX owl: <http://www.w3.org/2002/07/owl#>',
+              'PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>',
+              'PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>',
+              'PREFIX aitslt: <http://www.semanticweb.org/milkk/ontologies/2017/11/testData#>']
+    text = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:'+s+' . ?name aitslt:'+p+' ?children . optional{?children rdf:type aitslt:'+o+' .}}'
+
+    expected = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:OrganizationUnit . ?name aitslt:includes ?children . optional{?children rdf:type aitslt:OrganizationUnit .}}'
+    if text == expected:
+        return json.dumps({'status': 'OK', 'prefix': prefix, 'query': text})
+    else:
+        return json.dumps({'status': 'something wrong', 'query': s+p+o})
+
+
 @page.route('/set-taxonomy')
 def set_taxonomy():
-
-
     return render_template("set_taxonomy.html")
 
 
