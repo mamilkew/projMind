@@ -11,7 +11,7 @@
                         <div class="form-group col">
                             <label for="subject">Subject (select one):</label>
                             <select class="form-control" id="subject" name="sellist1">
-                                <option disabled selected> -- select an option --</option>
+                                <option disabled selected>-- select an option --</option>
                                 {% for each in data.subjects %}
                                     <option>{{ each }}</option>
                                 {% endfor %}
@@ -20,6 +20,7 @@
                         <div class="form-group col">
                             <label for="predicate">Predicate (select one):</label>
                             <select class="form-control" id="predicate" name="sellist2">
+                                <option disabled selected>-- select an option --</option>
                                 {% for each in data.predicates %}
                                     <option mysubject="{{ each.split('#')[0] }}"
                                             myrange="{{ each.split('#')[-1] }}">{{ each.split('#')[1] }}</option>
@@ -29,6 +30,7 @@
                         <div class="form-group col">
                             <label for="range">Range (select one):</label>
                             <select class="form-control" id="range" name="sellist3">
+                                <option disabled selected>-- select an option --</option>
                                 {% for each in data.ranges %}
                                     <option>{{ each }}</option>
                                 {% endfor %}
@@ -37,8 +39,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-                <div id="try"></div>
-                <div id="try2"></div>
             </div>
         </div>
     </div>
@@ -83,32 +83,37 @@
 //                });
                 $("#predicate option").each(function () {
                     predicate = $(this).attr('mysubject');
-                    if (mysubject != predicate) {
+                    if ($(this).text() == '-- select an option --') {
+                        $(this).prop('selected', true)
+                    } else if (mysubject != predicate) {
                         $(this).toggleOption(false);
-                    } else {
+                    } else{
                         $(this).toggleOption(true);
                     }
                 });
-                {#$("#predicate")[0].selectedIndex = 0;#}
-                $("#try").text('---' + mysubject + '=' + predicate);
-
-                alert("-----" + $("#predicate").children(":selected").text());
-
-                $("#predicate").change(function () {
-                    var check_p = $("#predicate").children(":selected").text();
-                    var myrange = $("#predicate").children(":selected").attr('myrange');
-                    {#alert(myrange)#}
-                    $("#range option").each(function () {
-                        if (myrange != $(this).text()) {
-                            $(this).toggleOption(false);
-                        } else {
-                            $(this).toggleOption(true);
-                        }
-                    });
-                    $("#try2").text(check_p + '=' + myrange);
-                }).change();
+                $("#range option").each(function () {
+                    if ($(this).text() == '-- select an option --') {
+                        $(this).prop('selected', true)
+                    } else{
+                        $(this).toggleOption(false);
+                    }
+                });
+                alert($("#predicate").children(":selected").text());
             }).change();
 
+            $("#predicate").change(function () {
+//                var check_p = $("#predicate").children(":selected").text();
+                var myrange = $("#predicate").children(":selected").attr('myrange');
+                $("#range option").each(function () {
+                    if ($(this).text() == '-- select an option --') {
+                        $(this).prop('selected', true)
+                    } else if (myrange != $(this).text()) {
+                        $(this).toggleOption(false);
+                    } else{
+                        $(this).toggleOption(true);
+                    }
+                });
+            }).change();
         });
     </script>
 
