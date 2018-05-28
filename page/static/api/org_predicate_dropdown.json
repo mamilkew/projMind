@@ -1,0 +1,32 @@
+{
+  "head" : {
+    "vars" : [
+      "predicate",
+      "range"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#includes"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#under"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      }
+    ]
+  }
+}

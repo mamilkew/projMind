@@ -1,0 +1,58 @@
+{
+  "head" : {
+    "vars" : [
+      "class"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Country"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Fos"
+        }
+      },{
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        }
+      },
+      {
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Area"
+        }
+      }
+    ]
+  }
+}

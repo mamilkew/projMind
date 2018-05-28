@@ -16,7 +16,38 @@ def country_map():
 
 @page.route('/sparql_taxonomy')
 def sparql_taxonomy():
-    return render_template("sparql_taxonomy.html")
+    json_url = os.path.join(SITE_ROOT, "static/api", "class_dropdown.json")
+    data = json.load(open(json_url))
+    results = data['results']['bindings']
+    relations = {}
+    subjects = []
+    for each in results:
+        for key in (each.keys() | each.keys()):
+            subjects.append(each[key].get('value').split('#')[-1])
+    subjects = sorted(list(set(subjects)))
+    print(subjects)
+
+    json_url = os.path.join(SITE_ROOT, "static/api", "org_predicate_dropdown.json")
+    data = json.load(open(json_url))
+    results = data['results']['bindings']
+    predicates = []
+    ranges = []
+    for each in results:
+        for key in (each.keys() | each.keys()):
+            if key == 'predicate':
+                predicates.append(each[key].get('value').split('#')[-1])
+            else:
+                ranges.append(each[key].get('value').split('#')[-1])
+    predicates = sorted(list(set(predicates)))
+    ranges = sorted(list(set(ranges)))
+    print(predicates)
+    print(ranges)
+
+    relations['subjects'] = subjects
+    relations['predicates'] = predicates
+    relations['ranges'] = ranges
+
+    return render_template("sparql_taxonomy.html", data=relations)
 
 
 @page.route('/sparql', methods=['POST'])
