@@ -10,8 +10,8 @@
                     <div class="form-row">
                         <div class="form-group col">
                             <label for="subject">Subject (select one):</label>
-                            <select class="form-control" id="subject" name="sellist1">
-                                <option disabled selected>-- select an option --</option>
+                            <select class="form-control" id="subject" name="sellist1" required>
+                                <option value="" disabled selected>-- select an option --</option>
                                 {% for each in data.subjects %}
                                     <option>{{ each }}</option>
                                 {% endfor %}
@@ -19,8 +19,8 @@
                         </div>
                         <div class="form-group col">
                             <label for="predicate">Predicate (select one):</label>
-                            <select class="form-control" id="predicate" name="sellist2">
-                                <option disabled selected>-- select an option --</option>
+                            <select class="form-control" id="predicate" name="sellist2" required>
+                                <option value="" disabled selected>-- select an option --</option>
                                 {% for each in data.predicates %}
                                     {% if each.split('#')[-1] != each.split('#')[1] %}
                                         <option mysubject="{{ each.split('#')[0] }}"
@@ -35,7 +35,7 @@
                         <div class="form-group col">
                             <label for="range">Range (select one):</label>
                             <select class="form-control" id="range" name="sellist3">
-                                <option disabled selected>-- select an option --</option>
+                                <option value="" disabled selected>-- select an option --</option>
                                 {% for each in data.ranges %}
                                     <option>{{ each }}</option>
                                 {% endfor %}
@@ -103,7 +103,7 @@
                         $(this).toggleOption(false);
                     }
                 });
-                alert($("#predicate").children(":selected").text());
+//                alert($("#predicate").children(":selected").text());
             }).change();
 
             $("#predicate").change(function () {
