@@ -119,7 +119,7 @@
 
         d3.select(self.frameElement).style("height", "800px");
 
-        d3.json('{{ url_for("static", filename="data/old/results.json") }}', function (error, flare) {
+        d3.json('{{ url_for("static", filename="data/results.json") }}', function (error, flare) {
             if (error) throw error;
 
             root = flare;

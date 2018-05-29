@@ -286,6 +286,6 @@ def read_sparql_result(filename):
     new_results['name'] = 'ROOT'
     new_results['children'] = n_results
 
-    with open("static/data/old/results.json", "w") as fo:
+    with open("static/data/results.json", "w") as fo:
         fo.write(json.dumps(new_results))
 
