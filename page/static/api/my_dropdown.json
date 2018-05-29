@@ -9,39 +9,13 @@
   "results" : {
     "bindings" : [
       {
-        "class" : {
-          "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
-        },
         "predicate" : {
           "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#includes"
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#consistsOf"
         },
-        "range" : {
-          "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
-        }
-      },
-      {
         "class" : {
           "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
-        },"predicate" : {
-          "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#under"
-        },
-        "range" : {
-          "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
-        }
-      },
-      {
-        "class" : {
-          "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
-        },"predicate" : {
-          "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#hasLocation"
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Country"
         },
         "range" : {
           "type" : "uri",
@@ -49,16 +23,403 @@
         }
       },
       {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NameOfDonor"
+        },
         "class" : {
           "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
-        },"predicate" : {
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
+        }
+      },
+      {
+        "predicate" : {
           "type" : "uri",
-          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isInCountry"
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isLocatedIn"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
         },
         "range" : {
           "type" : "uri",
           "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Country"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#sponsors"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#hasResearch"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Fos"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Area"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#hasLocation"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isInCountry"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Country"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#includes"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#under"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NameOfPerson"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TitleOfPerson"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#investigates"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isParticipatedIn"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#worksFor"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NameOfProject"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJContractedAmount"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#float"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJend"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJkeyword"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJlatedEnd"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJstart"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJstatus"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PJyear"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#integer"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#TypeOfProject"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.w3.org/2001/XMLSchema#string"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#includesInvestigator"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#includesMember"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Person"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isImplementedBy"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#OrganizationUnit"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isImplementedIn"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Location"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isRelatedTo"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Area"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isSponsoredBy"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Project"
+        },
+        "range" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Donor"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Keywords"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Area"
+        }
+      },
+      {
+        "predicate" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#isApartOf"
+        },
+        "class" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Research_Area"
         }
       }
     ]

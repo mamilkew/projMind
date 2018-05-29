@@ -22,8 +22,13 @@
                             <select class="form-control" id="predicate" name="sellist2">
                                 <option disabled selected>-- select an option --</option>
                                 {% for each in data.predicates %}
-                                    <option mysubject="{{ each.split('#')[0] }}"
-                                            myrange="{{ each.split('#')[-1] }}">{{ each.split('#')[1] }}</option>
+                                    {% if each.split('#')[-1] != each.split('#')[1] %}
+                                        <option mysubject="{{ each.split('#')[0] }}"
+                                                myrange="{{ each.split('#')[-1] }}">{{ each.split('#')[1] }}</option>
+                                    {% else %}
+                                        <option mysubject="{{ each.split('#')[0] }}"
+                                                myrange="">{{ each.split('#')[1] }}</option>
+                                    {% endif %}
                                 {% endfor %}
                             </select>
                         </div>
@@ -87,14 +92,14 @@
                         $(this).prop('selected', true)
                     } else if (mysubject != predicate) {
                         $(this).toggleOption(false);
-                    } else{
+                    } else {
                         $(this).toggleOption(true);
                     }
                 });
                 $("#range option").each(function () {
                     if ($(this).text() == '-- select an option --') {
                         $(this).prop('selected', true)
-                    } else{
+                    } else {
                         $(this).toggleOption(false);
                     }
                 });
@@ -109,7 +114,7 @@
                         $(this).prop('selected', true)
                     } else if (myrange != $(this).text()) {
                         $(this).toggleOption(false);
-                    } else{
+                    } else {
                         $(this).toggleOption(true);
                     }
                 });

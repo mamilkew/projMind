@@ -147,16 +147,16 @@ def set_taxonomy():
 
 @page.route('/sparql_taxonomy')
 def sparql_taxonomy():
-    json_url = os.path.join(SITE_ROOT, "static/api", "class_dropdown.json")
-    data = json.load(open(json_url))
-    results = data['results']['bindings']
+    # json_url = os.path.join(SITE_ROOT, "static/api", "class_dropdown.json")
+    # data = json.load(open(json_url))
+    # results = data['results']['bindings']
     relations = {}
     subjects = []
-    for each in results:
-        for key in (each.keys() | each.keys()):
-            subjects.append(each[key].get('value').split('#')[-1])
-    subjects = sorted(list(set(subjects)))
-    print(subjects)
+    # for each in results:
+    #     for key in (each.keys() | each.keys()):
+    #         subjects.append(each[key].get('value').split('#')[-1])
+    # subjects = sorted(list(set(subjects)))
+    # print(subjects)
 
     json_url = os.path.join(SITE_ROOT, "static/api", "my_dropdown.json")
     data = json.load(open(json_url))
@@ -165,14 +165,28 @@ def sparql_taxonomy():
     ranges = []
     for each in results:
         for key in (each.keys() | each.keys()):
-            if key == 'predicate':
-                predicates.append(
-                    each['class'].get('value').split('#')[-1] + '#' + each[key].get('value').split('#')[-1] + '#' +
-                    each['range'].get('value').split('#')[-1])
+            if key == 'class':
+                subjects.append(each[key].get('value').split('#')[-1])
+            elif key == 'predicate':
+                if each.get('range') is not None:
+                    xsd = 'http://www.w3.org/2001/XMLSchema'
+                    if each['range'].get('value').split('#')[0] == xsd:
+                        predicates.append(
+                            each['class'].get('value').split('#')[-1] + '#' + each[key].get('value').split('#')[-1])
+                    else:
+                        predicates.append(
+                            each['class'].get('value').split('#')[-1] + '#' + each[key].get('value').split('#')[
+                                -1] + '#' +
+                            each['range'].get('value').split('#')[-1])
+                else:
+                    predicates.append(
+                        each['class'].get('value').split('#')[-1] + '#' + each[key].get('value').split('#')[-1])
             else:
                 ranges.append(each[key].get('value').split('#')[-1])
+    subjects = sorted(list(set(subjects)))
     predicates = sorted(list(set(predicates)))
     ranges = sorted(list(set(ranges)))
+    print(subjects)
     print(predicates)
     print(ranges)
 
@@ -321,6 +335,3 @@ def pee_nut():
     #         children.append(new)
     #     print(new)
     # print(children)
-
-
-
