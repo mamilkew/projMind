@@ -204,8 +204,10 @@ def sparql():
     if request.form.get('sellist3') is not None:
         o = request.form['sellist3']
         text = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:' + s + ' . ?name aitslt:' + p + ' ?children . optional{?children rdf:type aitslt:' + o + ' .}}'
+        file_result = s.lower() + '_' + p.lower() + '_' + o.lower() + '.json'
     else:
         text = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:' + s + ' . ?name aitslt:' + p + ' ?children .}'
+        file_result = s.lower() + '_' + p.lower() + '.json'
 
     prefix = ['PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>',
               'PREFIX owl: <http://www.w3.org/2002/07/owl#>',
@@ -217,16 +219,18 @@ def sparql():
     expected = 'SELECT DISTINCT * WHERE { ?name rdf:type aitslt:OrganizationUnit . ?name aitslt:includes ?children . optional{?children rdf:type aitslt:OrganizationUnit .}}'
     # if text == expected:
         # result should be return here!
-        # transfer to d3js pattern
-        # read_sparql_result()
+        # transfer to d3js pattern with "read_sparql_result" function
+
+    read_sparql_result(file_result)
     return json.dumps({'status': 'OK', 'prefix': prefix, 'query': text})
     # else:
     #     return json.dumps({'status': 'something wrong', 'query': s + p + o})
 
 
-def read_sparql_result():
+def read_sparql_result(filename):
     # SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    json_url = os.path.join(SITE_ROOT, "static/data", "org_includes_org.json")
+    # json_url = os.path.join(SITE_ROOT, "static/data", "organizationunit_includes_organizationunit.json")
+    json_url = os.path.join(SITE_ROOT, "static/api", filename)
     data = json.load(open(json_url))
     results = data['results']['bindings']
     # new_results = {'name': 'SET', 'children': []}
@@ -285,58 +289,3 @@ def read_sparql_result():
     with open("static/data/old/results.json", "w") as fo:
         fo.write(json.dumps(new_results))
 
-
-# backup
-def pee_nut():
-    n_results = []
-    parents = []
-    for each in results:
-        for key in (each.keys() | each.keys()):
-            if key == 'name':
-                parents.append(each[key].get('value').split('#')[-1])
-    parents = sorted(list(set(parents)))
-    print(parents)
-
-    for parent in parents:
-        children = []
-        for each in results:
-            for key in (each.keys() | each.keys()):
-                if key == 'name' and each[key].get('value').split('#')[-1] == parent:
-                    children.append(each['children'].get('value').split('#')[-1])
-        children = sorted(children)
-        print(children)
-        keys = []
-        for child in children:
-            if child in parents:
-                keys.append({'name': child})
-            else:
-                keys.append({'name': child})
-        print(keys)
-
-        for each in results:
-            for key in (each.keys() | each.keys()):
-                if key == 'name' and each[key].get('value').split('#')[-1] == parent:
-                    add = {'name': parent, 'children': keys}
-                    if add not in n_results:
-                        n_results.append(add)
-        print(n_results)
-
-    # แค่ทำให้มีแม่ลูก 1 ขั้น ยังซ้อนชั้นไม่ได้
-    #
-    # children = []
-    # for idx, result in enumerate(results):
-    #     childrens = []
-    #     name1 = result.get('name').get('value').split('#')[-1]
-    #     # child1 = {'name': result.get('children').get('value').split('#')[-1]}
-    #     for idy, in_result in enumerate(results):
-    #         name2 = in_result.get('name').get('value').split('#')[-1]
-    #         child2 = {'name': in_result.get('children').get('value').split('#')[-1]}
-    #         if name1 == name2:
-    #             childrens.append(child2)
-    #             # if idx != idy:
-    #             #     out.append(idy)
-    #     new = {'name': name1, 'children': childrens}
-    #     if new not in children:
-    #         children.append(new)
-    #     print(new)
-    # print(children)

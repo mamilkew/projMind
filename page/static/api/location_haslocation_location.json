@@ -1,0 +1,142 @@
+{
+  "head" : {
+    "vars" : [
+      "name",
+      "children"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AIT"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PathumThani"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#DonMuang"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NortheasternThailand"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NakhonSiThammarat"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#NakhonSiThammaratProvince"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#PathumThani"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#AIT"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Bangkok"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Thailand"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#DonMuang"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Bangkok"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Hanoi"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#CanTho"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#HoChiMinh"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Vietnam"
+        }
+      },
+      {
+        "name" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Yangon"
+        },
+        "children" : {
+          "type" : "uri",
+          "value" : "http://www.semanticweb.org/milkk/ontologies/2017/11/testData#Myanmar"
+        }
+      }
+    ]
+  }
+}
